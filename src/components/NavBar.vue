@@ -21,22 +21,22 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <router-link to="/">Home</router-link> |
+                <router-link class="navLink" to="/">Home</router-link> |
               </li>
               <li class="nav-item">
-                <router-link to="/about">About</router-link> |
+                <router-link class="navLink" to="/about">About</router-link> |
               </li>
               <li class="nav-item">
-                <router-link to="/resume">Resume</router-link> |
+                <router-link class="navLink" to="/resume">Resume</router-link> |
               </li>
               <li class="nav-item">
-                <router-link to="/project">Project</router-link> |
+                <router-link class="navLink" to="/project">Project</router-link> |
               </li>
               <li class="nav-item">
-                <router-link to="/testimonial">Testimonial</router-link> |
+                <router-link class="navLink" to="/testimonial">Testimonial</router-link> |
               </li>
               <li class="nav-item">
-                <router-link to="/contact">Contact</router-link> |
+                <router-link class="navLink" to="/contact">Contact</router-link> |
               </li>
             </ul>
           </div>
@@ -54,8 +54,10 @@ export default {
     
     align-items: center;
   }
-  .nav-item:hover {
-    scale:1.05;
+  .nav-item:hover{
+    scale: 1.05;
+  }
+ .navLink:hover {
     color: #42b983;
   }
 @media screen and (max-width: 545px){
