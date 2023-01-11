@@ -3,7 +3,7 @@
         <section id="contact" class="container-fluid text-center">
         <h2 class="display-4 text-light mt-0 rounded-3 barney kage animate-charcter fw-bolder" data-aos="zoom-in">Contact</h2>
         <div class="container">
-            <form action="https://formspree.io/f/mdovovaj" method="POST">
+            <form action="https://formspree.io/f/mdovovaj" method="POST" @submit.prevent default>
                 <div >
                     <label for="#firstname" class="fs-1 animate-charcter fw-bold">Name</label>
                     <input id="firstname" name="firstName" type="text" placeholder="Enter your name" required  class="w-100">
@@ -29,7 +29,7 @@
                   </select>
               </div> <br>
                 <div>
-                    <input id="submit" type="submit" value="submit">
+                    <input id="submit" type="submit" value="submit" v-on:click="submit">
                 </div>
             </form>
         </div> <br>
