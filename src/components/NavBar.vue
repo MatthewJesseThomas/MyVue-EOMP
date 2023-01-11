@@ -12,7 +12,7 @@
       </nav> -->
       <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
         <div class="container-fluid">
-            <a href="../views/HomeView.vue">
+            <a href="/">
                 <img class="logo" src="https://i.postimg.cc/JnpQqnfb/retro-sword-badges-shields-logo-260nw-450358219.webp" alt="Logo">
             </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
