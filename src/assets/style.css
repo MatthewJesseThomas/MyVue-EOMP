@@ -1,0 +1,237 @@
+/* Define custom variables */
+:root {
+    --primaryColor: darkcyan;
+    --secondaryColor: rgb(26, 48, 48);
+    --alternativeColor: rgb(12, 46, 110);
+    --redColor: rgb(102, 11, 11);
+    --whiteText:white;
+    /* none | h-offset (X) v-offset (Y) blur spread color |inset|initial|inherit*/
+    --mainBoxShadow: .3vw .3vw 1vw rgba(120, 200, 87, 11);
+}
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, section {
+    overflow-x: hidden;
+}
+/* Header Styles */
+.logo {
+    height: 8rem;
+    scale: 1.055;
+    clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%, 100% 80%, 70% 50%, 100% 20%, 80% 0%, 50% 30%);
+    filter: invert(100%);
+}
+.logo:hover {
+    scale: 1.1;
+    animation: 2.15s linear spining infinite;
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 0 8px black;
+    z-index: 20;
+}
+.nav-link:hover {
+    color: darkcyan !important;
+    scale: 1.05;
+  }
+/* Main */
+main {
+    margin-top: 150px;
+}
+.img-fluids {
+    display: flex;
+    justify-content: space-evenly;
+}
+.bible {
+    border:4px solid black ;
+}
+/* NavBar */
+.nav-link:hover {
+    border-radius: 2rem;
+}
+/* Text-Shadowing */
+/* .kage {
+    text-shadow: 1px 1px 3px rgb(61, 109, 171) ;
+} */
+/* .kami {
+    text-shadow: 1px 1px 3px ;
+} */
+/* Main-Background-Bar  */
+.barney {
+    /* background: linear-gradient(90deg, rgba(129,158,148,1) 100%, rgba(0,212,255,1) 100%, rgba(23,22,52,1) 100%, rgba(27,80,77,1) 100%); */
+    background-color: #2F2E3D;
+}
+/* Image-Sizing */
+.resize {
+    width: 33.5rem;
+}
+/* End-Image-sizing */
+/* Contact Section */
+input, textarea {
+    width: 100%;
+    color: #222;
+    /* clear: both; */
+  }
+#contact {
+    overflow-y: hidden;
+}
+.offsite {
+    background-color:#fbfbfb;
+    border-style: groove;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 0 5px;
+    /* margin-left: 650px; */
+}
+  /* Footer */
+footer {
+    min-height: 6rem;
+    min-width: 90vw;
+}
+/* Icon-link-Images */
+.git-link {
+    width: 5rem;
+    filter: invert(85%);
+}
+.git-link:hover {
+    scale: 1.1;
+}
+.netlify-link {
+    filter: invert(85%);
+    width: 5.4rem;
+    height: 5rem;
+}
+.netlify-link:hover {
+    scale: 1.1;
+}
+/* End-Of-Welcome-Page-style */
+/* KeyFrames */
+@keyframes fill-animation1 {
+    from{left:1%;}
+    to{width: 90%;}
+}
+@keyframes fill-animation2 {
+    from{left:1%;}
+    to{width: 80%;}
+}
+@keyframes fill-animation3 {
+    from{left:1%;}
+    to{width: 85%;}
+}
+@keyframes fill-animation4 {
+    from{left:1%;}
+    to{width: 0%;}
+}
+/* KeyFramesEnd */
+.skillbar {
+    background-color: black;
+    height: 25px;
+    border-radius: 10px;
+}
+.HTML5 {
+    color: rgb(255, 255, 255);
+    background-color: darkblue;
+    border-radius: 10px;
+    animation: fill-animation1 5s forwards infinite;
+    width: 10%;
+}
+.CSS {
+    color: rgb(255, 255, 255);
+    background-color: lightgreen;
+    border-radius: 10px;
+    animation: fill-animation2 5s forwards infinite;
+    width: 10%;
+}
+.Bootstrap {
+    color: rgb(255, 255, 255);
+    background-color: darkorchid;
+    border-radius: 10px;
+    animation: fill-animation3 5s forwards infinite;
+    width: 10%;
+}
+.JavaScript {
+    color: rgb(255, 255, 255);
+    background-color: rgba(105, 79, 118, 0.977);
+    border-radius: 10px;
+    animation: fill-animation4 5s forwards infinite;
+    width: 10%;
+}
+/* KeyFrames End */
+/* Animation-KeyFrame */
+@keyframes spining {
+    0% {
+      transform: rotate(0deg);
+    }
+    50% {
+      transform: rotate(180deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  /* Animation-KeyFrame (End) */
+  /* Animate-Character */
+  .animate-charcter
+  {
+     text-transform: uppercase;
+    background-image: linear-gradient(
+      -225deg,
+      #231557 10%,
+      #44107a 29%,
+      #ff1361 67%,
+      #fff800 100%
+    );
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 6s linear infinite;
+    display: inline-block;
+    /* font-size: 190px; */
+  }
+  
+  @keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+  }
+  /* End-Of-Animated-Characters */
+  /* Reversed-Animate-Character */
+  .animated-charcter
+  {
+     text-transform: uppercase;
+    background-image: linear-gradient(
+      -225deg,
+      #7e6eb8 5%,
+      #44107a 29%,
+      #ff1361 67%,
+      #fff800 100%
+    );
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 8.5s reverse infinite;
+    display: block;
+    /* font-size: 190px; */
+  }
+  
+  @keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+  }
