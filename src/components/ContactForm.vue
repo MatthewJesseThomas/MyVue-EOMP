@@ -28,9 +28,7 @@
                       <option class="fs-2" value="3">Other</option>
                   </select>
               </div> <br>
-                <div>
-                    <input id="submit" type="submit" value="submit" v-on:click="submit">
-                </div>
+                <button class="bttn" id="submit" type="submit" value="submit" v-on:click="submit">submit</button>
             </form>
         </div> <br>
         <ul class="list-unstyled text-light bg-dark offsite kage animate-charcter" data-aos="flip-left"
@@ -55,5 +53,15 @@ export default {
 <style>
 #contact{
     margin-top: 9rem;
-}   
+}
+.bttn{
+    width: 15rem;
+    height: 3rem;
+    border-radius: 2rem;
+} 
+.bttn:hover{
+    scale: 1.1;
+    color: #163e2c;
+    background-color: #42b983;
+}  
 </style>
