@@ -54,6 +54,10 @@ export default {
     
     align-items: center;
   }
+  .nav-item:hover {
+    scale:1.05;
+    color: #42b983;
+  }
 @media screen and (max-width: 545px){
   nav{
     flex-flow: column nowrap;
