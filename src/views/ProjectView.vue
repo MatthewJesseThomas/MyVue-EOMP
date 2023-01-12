@@ -5,32 +5,81 @@
                 <h1 class="display-5 Shinobi text-light text-shad-white mx-3 my-3 kage animated-charcter fw-bolder">|Projects|</h1>
             </div>
         </div>
-            <div class="row">
-                <div class="col-sm-4-4 text-white text-shadow-white rounded-3 py-5 bible">
-                    <h1 class="display-5 text-decoration-underline kage  animate-charcter fw-bolder">Project 1</h1> <br>
-                    <h2 class="display-6 text-decoration-underline kage  animate-charcter fw-bold">Portfolio</h2> <br>
-                    <img src="https://i.postimg.cc/NfZf4cx2/Portfolio-Project-1.jpg" class="card-img-top" alt="Pic" loading="lazy">
-                    <p class="lead display-6  animate-charcter fw-semibold">•Professional Portfolio Of Matthew Thomas•</p> <br>
-                    <h2 class="display-6  animated-charcter fw-bold">:Project Link:</h2>
-                    <p class="lead display-6 fw-semibold"><a href="https://github.com/MatthewJesseThomas/Portfolio-.git" target="_blank"><img class="git-link" src="https://i.postimg.cc/SKf3n22N/link-icon-github.jpg" alt="Icon" loading="lazy"></a></p>
-                    <p class="lead display-6"><a href="https://matthewjessethomas22.netlify.app/" target="_blank"><img class="netlify-link" src="https://i.postimg.cc/mZ5q1GDM/link-icon-netlify.jpg" alt="Icon" loading="lazy"></a></p>
-                  </div>
-                  <div class="col-sm-4-4 text-white text-shadow-white rounded-3 py-5 bible border-5">
-                    <h1 class="display-5 kage animate-charcter fw-bolder">Project2</h1> <br>
-                    <h2 class="display-6 kage animate-charcter fw-bold">Ghost-Gaming</h2> <br>
-                    <img src="https://i.postimg.cc/d0WJ3w2c/Screenshot-2022-10-31-141908.jpg" class="card-img-top" alt="Pic" loading="lazy">
-                    <p class="lead display-6 animate-charcter fw-semibold">•Ghost-Gaming•</p> <br>
-                    <h2 class="display-6 animated-charcter fw-bold">:Project Link:</h2>
-                    <p class="lead display-6"><a href="https://github.com/MatthewJesseThomas/Ecommerce-Website.git" target="_blank"><img class="git-link" src="https://i.postimg.cc/SKf3n22N/link-icon-github.jpg" alt="Icon" loading="lazy"></a></p>
-                    <p class="lead display-6"><a href="https://ghost-gaming.netlify.app/" target="_blank"><img class="netlify-link" src="https://i.postimg.cc/mZ5q1GDM/link-icon-netlify.jpg" alt="Icon" loading="lazy"></a></p>
-                </div>
+        <div data-aos="fade-up" data-aos-duration="700" id="skills" class="container text-center">
+            <hr class="w-50 mx-auto pb-5">
+          </div>
+          <div class="card-holder row d-flex justify-content-around mx-auto g-4">
+            <div class="card col-4 col-md-6" style="width: 18rem" v-for="project in projects" :key="project">
+              <img :src="project.img" class="card-img-top img-fluid" alt="" />
+              <div class="card-body">
+                <h5 class="card-title" v-text="project.brand"></h5>
+                <p class="card-text" v-text="project.model"></p>
+                <a :href="project.github">Github Link</a>
+                <br>
+                <a :href="project.netlify">Netlify Link</a>
+              </div>
             </div>
+          </div>
     </div>
 </template>
 <script>
 export default {
-    
-}
+  data() {
+    return {
+      projects: [
+        {
+          id: "1",
+          brand: "Portfolio",
+          model: "Project1",
+          img: "https://i.postimg.cc/NfZf4cx2/Portfolio-Project-1.jpg",
+          github:"https://github.com/MatthewJesseThomas/Portfolio-.git",
+          netlify:"https://matthewjessethomas22.netlify.app/",
+        },
+        {
+          id: "2",
+          brand: "Ghost-Gaming",
+          model: "Project2",
+          img: "https://i.postimg.cc/d0WJ3w2c/Screenshot-2022-10-31-141908.jpg",
+          github:"https://github.com/MatthewJesseThomas/exercise",
+          netlify:"https://matthewjessethomas22.netlify.app/",
+        },
+        {
+          id: "3",
+          brand: "Abstract Gaming",
+          model: "Project3",
+          img: "https://screenshot-proxy.netlify.app/f_webp,w_336/https://d33wubrfki0l68.cloudfront.net/634d6b0fb298de00097b01d7/screenshot_2022-10-17-14-47-51-0000.png",
+          github:"https://github.com/MatthewJesseThomas/Portfolio-.git",
+          netlify:"https://abstractgaming.netlify.app",
+        },
+        {
+          id: "4",
+          brand: "Calculator",
+          model: "Project4",
+          img: "https://screenshot-proxy.netlify.app/f_avif,w_336/https://d33wubrfki0l68.cloudfront.net/637f14011f56592ca68789a9/screenshot_2022-11-24-06-49-42-0000.png",
+          github:"https://github.com/MatthewJesseThomas/JavaScript-Calculator.git",
+          netlify:"https://my-javascript-calculator-task.netlify.app",
+        },
+        {
+          id: "5",
+          brand: "Stygian Umbra Gaming",
+          model: "Project5",
+          img: "https://screenshot-proxy.netlify.app/f_avif,w_336/https://d33wubrfki0l68.cloudfront.net/639c601a39cc2c0069ecef5a/screenshot_2022-12-16-12-10-08-0000.png",
+          github:"https://github.com/MatthewJesseThomas/EOMP-JAVASCRIPT.git",
+          netlify:"https://stygian-umbra-gaming.netlify.app",
+        },
+        {
+          id: "6",
+          brand: "Ghost-Gaming",
+          model: "Project6",
+          img: "https://i.postimg.cc/d0WJ3w2c/Screenshot-2022-10-31-141908.jpg",
+          github:"https://github.com/MatthewJesseThomas/Portfolio-.git",
+          netlify:"https://matthewjessethomas22.netlify.app/",
+        }
+      ],
+    };
+  },
+};
+
 </script>
 <style>
 .project{
