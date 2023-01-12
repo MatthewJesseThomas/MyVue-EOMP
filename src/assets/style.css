@@ -177,28 +177,7 @@ footer {
   }
   /* Animation-KeyFrame (End) */
   /* Animate-Character */
-  .animate-charcter
-  {
-     text-transform: uppercase;
-    background-image: linear-gradient(
-      -225deg,
-      #231557 10%,
-      #44107a 29%,
-      #ff1361 67%,
-      #fff800 100%
-    );
-    background-size: auto auto;
-    background-clip: border-box;
-    background-size: 200% auto;
-    color: #fff;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    animation: textclip 6s linear infinite;
-    display: inline-block;
-    /* font-size: 190px; */
-  }
+  
   
   @keyframes textclip {
     to {
@@ -207,28 +186,9 @@ footer {
   }
   /* End-Of-Animated-Characters */
   /* Reversed-Animate-Character */
-  .animated-charcter
-  {
-     text-transform: uppercase;
-    background-image: linear-gradient(
-      -225deg,
-      #7e6eb8 5%,
-      #44107a 29%,
-      #ff1361 67%,
-      #fff800 100%
-    );
-    background-size: auto auto;
-    background-clip: border-box;
-    background-size: 200% auto;
-    color: #fff;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    animation: textclip 8.5s reverse infinite;
-    display: block;
+  
     /* font-size: 190px; */
-  }
+  
   
   @keyframes textclip {
     to {
