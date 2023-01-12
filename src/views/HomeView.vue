@@ -41,5 +41,8 @@ export default {
 <style>
 .home{
     margin-top: 9rem;
-    }
+}
+figcaption{
+    background-color: rgb(36, 54, 54);
+}
 </style>
