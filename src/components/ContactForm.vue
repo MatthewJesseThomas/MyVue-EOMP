@@ -14,7 +14,7 @@
                 </div>
                 <div>
                     <label for="#email" class="fs-1 animate-charcter fw-bold">Email</label>
-                    <input id="Email" name="Email" type="text" placeholder="Enter your Email" required class="w-100">
+                    <input id="Email" name="Email" type="email" placeholder="Enter your Email" required class="w-100">
                 </div>
                 <div>
                     <label for="#Response" class="fs-1 animate-charcter fw-bold">Message</label>
