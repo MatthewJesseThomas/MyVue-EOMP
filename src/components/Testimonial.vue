@@ -65,13 +65,21 @@ export default {
 </script>
 <style>
 .myCards{
-    display: flex;
-    margin: auto;
-    margin-top: 2rem;
-    margin-bottom: 8rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    align-content: center;
-    justify-content: space-between;
+  display: flex;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 8rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  align-content: center;
+  justify-content: space-between;
+  justify-content: space-around;
+}
+.card-img-top{
+  height: 18rem;
+  width: 16rem;
+}
+.card-body{
+  height: 42rem;
 }     
 </style>
