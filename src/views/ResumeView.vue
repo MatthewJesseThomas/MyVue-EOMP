@@ -29,63 +29,70 @@
                 <h1>Card Flip with Text</h1>
                 <h3>Hover over the image below:</h3>
 
-                <div class="flip-card">
+                <div class="flip-card m-auto justify-content-center">
                 <div class="flip-card-inner">
                     <div class="flip-card-front">
                     <img src="https://i.postimg.cc/2jH1QjDN/html-png.png" alt="Avatar" style="width:300px;height:300px;">
                     </div>
                     <div class="flip-card-back">
-                    <h1>HTML</h1> 
-                    <p>Competency</p> 
-                    <p>Expert</p>
+                    <h1 class="fw-bolder">HTML</h1>
+                    <h2>✅</h2> 
+                    <p class="fw-bolder fs-3 text-danger-emphasis">•Competency Level•</p> 
+                    <p class="fw-bolder fs-3 text-dark-emphasis">Expert</p>
                     </div>
                 </div>
                 </div>
-                <div class="flip-card">
-                <div class="flip-card-inner">
-                    <div class="flip-card-front">
-                    <img src="https://i.postimg.cc/K8LGKxfb/pngegg-5.png" alt="Avatar" style="width:300px;height:300px;">
-                    </div>
-                    <div class="flip-card-back">
-                    <h1>CSS</h1> 
-                    <p>Competency</p> 
-                    <p>Expert</p>
-                    </div>
+                <div class="d-flex m-auto justify-content-between">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                            <img src="https://i.postimg.cc/K8LGKxfb/pngegg-5.png" alt="Avatar" style="width:300px;height:300px;">
+                            </div>
+                            <div class="flip-card-back">
+                            <h1 class="fw-bolder">CSS</h1>
+                            <h2>✅</h2> 
+                            <p class="fw-bolder fs-3 text-danger-emphasis">•Competency Level•</p> 
+                            <p class="fw-bolder fs-3 text-dark-emphasis">Expert</p>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                <img src="https://i.postimg.cc/yNYbMTkG/bootstrap.png" alt="Avatar" style="width:300px;height:300px;">
+                                </div>
+                                <div class="flip-card-back">
+                                <h1 class="fw-bolder">Bootstrap</h1>
+                                <h2>✅</h2> 
+                                <p class="fw-bolder fs-3 text-danger-emphasis">•Competency Level•</p> 
+                                <p class="fw-bolder fs-3 text-dark-emphasis">Expert</p>
+                                </div>
+                            </div>
+                            </div>
                 </div>
-                </div>
-                <div class="flip-card">
-                <div class="flip-card-inner">
-                    <div class="flip-card-front">
-                    <img src="https://i.postimg.cc/yNYbMTkG/bootstrap.png" alt="Avatar" style="width:300px;height:300px;">
-                    </div>
-                    <div class="flip-card-back">
-                    <h1>Bootstrap</h1> 
-                    <p>Competency</p> 
-                    <p>Expert</p>
-                    </div>
-                </div>
-                </div>
-                <div class="flip-card">
+                <div class="flip-card  m-auto justify-content-center">
                 <div class="flip-card-inner">
                     <div class="flip-card-front">
                     <img src="https://i.postimg.cc/FRGs9pZJ/pngegg-3.png" alt="Avatar" style="width:300px;height:300px;">
                     </div>
                     <div class="flip-card-back">
-                    <h1>JavaScript</h1> 
-                    <p>Competency</p> 
-                    <p>Expert</p>
+                    <h1 class="fw-bolder">JavaScript</h1>
+                    <h2>✅</h2> 
+                    <p class="fw-bolder fs-3 text-danger-emphasis">•Competency Level•</p> 
+                    <p class="fw-bolder fs-3 text-dark-emphasis">Intermediate</p>
                     </div>
                 </div>
                 </div>
-                <div class="flip-card">
+                <div class="flip-card m-auto mt-2 justify-content-center">
                 <div class="flip-card-inner">
                     <div class="flip-card-front">
                     <img src="https://i.postimg.cc/j2KN1Mjw/pngegg-4.png" alt="Avatar" style="width:300px;height:300px;">
                     </div>
                     <div class="flip-card-back">
-                    <h1>VUE-JS</h1> 
-                    <p>Competency</p> 
-                    <p>Expert</p>
+                    <h1 class="fw-bolder">VUE-JS</h1>
+                    <h2>✅</h2> 
+                    <p class="fw-bolder fs-3 text-danger-emphasis">•Competency Level•</p> 
+                    <p class="fw-bolder fs-3 text-dark-emphasis">Intermediate</p>
                     </div>
                 </div>
                 </div>
