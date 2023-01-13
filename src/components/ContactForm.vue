@@ -30,7 +30,8 @@
               </div> <br>
                 <button class="bttn" id="submit" type="submit" value="submit">submit</button>
             </form>
-        </div> <br>
+        </div> 
+        <br>
         <ul class="list-unstyled text-light bg-dark offsite kage animate-charcter" data-aos="flip-left"
         data-aos-easing="ease-out-cubic"
         data-aos-duration="2000">
