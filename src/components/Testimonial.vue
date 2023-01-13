@@ -43,7 +43,7 @@
         <Card
           imgSrc="https://i.postimg.cc/xTqqW2Mx/candice-2022.jpg"
           name="CANDICE AMON"
-          relation="LIFE CHOICES ACADEMY FACILITATOR"
+          relation="Life Choices Academy Facilitator"
           quote="He is a very interactive individual. Very respectful towards his peers and anyone he encounters. Has a great appetite to learn. Matthew is always ready for a challenge and willing to give his all to excel in what he does. One of his greatest strengths is that he is an awesome team player."
         />
         <Card
@@ -67,6 +67,7 @@ export default {
 <style>
 .myCards {
   display: flex;
+  flex-direction: column;
   margin: auto;
   margin-top: 2rem;
   margin-bottom: 8rem;
@@ -83,4 +84,5 @@ export default {
 .card-body {
   height: 42rem;
 }
+
 </style>
