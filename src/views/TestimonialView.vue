@@ -1,8 +1,8 @@
 <template >
     <div class="test">
-        <h1 class="animated-charcter">Testimonials</h1>
+        <h1 class="animated-charcter text-light">Testimonials</h1>
         <br>
-        <h2 class="animated-charcter">•As Follows•</h2>
+        <h2 class="animated-charcter text-light">•As Follows•</h2>
         <Testimonial/>
     </div>
 </template>

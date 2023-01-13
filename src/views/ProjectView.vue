@@ -2,7 +2,7 @@
     <div class="container-fluid text-center project">
         <div class="row">
             <div class="col rounded-3">
-                <h1 class="display-5 Shinobi text-light text-shad-white mx-3 my-3 kage animated-charcter fw-bolder">|Projects|</h1>
+                <h1 class="display-5 Shinobi text-light text-shad-white mx-3 my-3 kage animated-charcter fw-bolder">Projects</h1>
             </div>
         </div>
         <div data-aos="fade-up" data-aos-duration="700" id="skills" class="container text-center">

@@ -2,7 +2,7 @@
 <div class="container-fluid text-center resume">
     <div class="row">
         <div class="col rounded-3">
-            <h1 class="display-5 Shinobi text-light mx-3 my-3 kage animated-charcter fw-bolder">|Resume|</h1>
+            <h1 class="display-5 Shinobi text-light mx-3 my-3 kage animated-charcter fw-bolder">Resume</h1>
         </div>
     </div>
             <div class="col-sm-4-4 text-white text-shadow-white rounded-3 py-5 bible w-75 m-auto justify-content-center">

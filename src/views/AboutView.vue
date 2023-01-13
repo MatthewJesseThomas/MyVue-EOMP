@@ -1,6 +1,6 @@
 <template>
   <div class="about animated-charcter">
-    <h1 class="display-6 text-decoration-underline kage animated-charcter fw-bold">|About Section|</h1> <br>
+    <h1 class="display-6 kage animated-charcter fw-bold text-light">About Me</h1> <br>
     <div class="col-sm-4-4 text-white text-shadow-white rounded-3 py-5 bible">
       <h1 class="display-6 text-decoration-underline kage animated-charcter fw-bold">Who Is Matthew:</h1> <br>
       <p class="lead display-6 kage animate-charcter fw-semibold">I am a Young South African male, with Aspirations of many Great deals and Strive for excellence and immense proficiency amongst all else an for my work. My passions are Engineering, Gaming, Gardening Music etc. I am the Eldest of Three kids an Always try to lead by Example for my Siblings as well as Community.</p> <br>
