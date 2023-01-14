@@ -115,7 +115,7 @@ export default {
 };
 </script>
 <style>
-<!-- .resume{
+.resume{
 margin-top: 8rem;
 }
 body {
