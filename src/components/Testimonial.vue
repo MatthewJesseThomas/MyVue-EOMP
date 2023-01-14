@@ -79,7 +79,7 @@ export default {
 }
 .card-img-top {
   height: 18rem;
-  width: 16rem;
+  width: 15rem;
 }
 .card-body {
   height: 42rem;

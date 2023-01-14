@@ -24,79 +24,62 @@
                 <h1 class="display-5 text-decoration-underline kage animated-charcter fw-bolder">|EXPERIENCE:|</h1>
                 <h2 class="display-6 text-decoration-underline kage animate-charcter fw-bold">{{ resume[2].retail }} <br>{{ resume[2].when }} <br> {{ resume[2].fb }} <br> {{ resume[2].date }} <br> {{ resume[2].engineering }} <br> {{ resume[2].timeSpent }} <br> {{ resume[2].developer }} <br> {{ resume[2].timeFrame }} </h2>
             </div>
-            <div class="col-sm-4-4 text-white text-shadow-white rounded-3 py-5 bible w-75 m-auto justify-content-center">
-                <h1 class="display-5 text-decoration-underline kage animated-charcter fw-bolder">|Skills:|</h1>
-                <h1>Card Flip with Text</h1>
-                <h3>Hover over the image below:</h3>
-
-                <div class="flip-card m-auto justify-content-center">
-                <div class="flip-card-inner">
-                    <div class="flip-card-front">
-                    <img src="https://i.postimg.cc/2jH1QjDN/html-png.png" alt="Avatar" style="width:300px;height:300px;">
-                    </div>
-                    <div class="flip-card-back">
-                    <h1 class="fw-bolder">HTML</h1>
-                    <h2>✅</h2> 
-                    <p class="fw-bolder fs-3 text-danger-emphasis">•Competency Level•</p> 
-                    <p class="fw-bolder fs-3 text-dark-emphasis">Expert</p>
+            <div class="container-fluid text-center">
+                <div class="row">
+                    <div class="col rounded-3" data-aos="fade-up">
+                        <h1 class="display-5 Shinobi text-light text-shad-white mx-3 my-3 kage animated-charcter fw-bolder">|Skills|</h1>
                     </div>
                 </div>
-                </div>
-                <div class="d-flex m-auto justify-content-between">
-                    <div class="flip-card">
-                        <div class="flip-card-inner">
-                            <div class="flip-card-front">
-                            <img src="https://i.postimg.cc/K8LGKxfb/pngegg-5.png" alt="Avatar" style="width:300px;height:300px;">
-                            </div>
-                            <div class="flip-card-back">
-                            <h1 class="fw-bolder">CSS</h1>
-                            <h2>✅</h2> 
-                            <p class="fw-bolder fs-3 text-danger-emphasis">•Competency Level•</p> 
-                            <p class="fw-bolder fs-3 text-dark-emphasis">Expert</p>
-                            </div>
+                    <!-- <div class="row"> -->
+                        <div class="col-sm-4-4 text-white text-shadow-white rounded-3 py-5 bible" data-aos="fade-up-right">
+                            <h1 class="display-5 text-decoration-underline kage animated-charcter fw-bolder">HTML5</h1> <br>
+                            <h2 class="display-6 text-decoration-underline kage animate-charcter fw-bold">Coding Language:</h2> <br>
+                      <p class="lead display-5 text-decoration-underline kage animate-charcter fw-semibold">:Web Development:</p> <br>
+                      <p class="lead display-5 text-decoration-underline kage animate-charcter fw-semibold">Able To Code Web Pages</p> <br>
+    <!-- skillbar -->
+                            <h4 class="display-5 text-decoration-underline kage animated-charcter fw-semibold" id="Skills">:Proggress•Bar:</h4>
+                    <div class="skillbar text-light text-center text-nowrap">
+                        <div class="HTML5 my-2 ms-2" data-skill="HTML5">HTML5</div>
+                    </div>
                         </div>
+                    <!-- </div> -->
+                    <br>
+                        <div class="col-sm-4-4 text-white text-shadow-white rounded-3 py-5 bible" data-aos="fade-up-left">
+                            <h1 class="display-5 text-decoration-underline kage animated-charcter fw-bolder">CSS3</h1> <br>
+                            <h2 class="display-6 text-decoration-underline kage animate-charcter fw-bold">Coding Language:</h2> <br>
+                            <p class="lead display-5 text-decoration-underline kage animate-charcter fw-semibold">:Web Development:</p> <br>
+                            <p class="lead display-5 text-decoration-underline kage animate-charcter fw-semibold">Able To Style Web Pages</p> <br>
+    <!-- skillbar -->
+                          <h4 class="display-5 text-decoration-underline kage animated-charcter fw-semibold" id="Skills">:Proggress•Bar:</h4>
+                            <div class="skillbar text-light text-center text-nowrap">
+                        <div class="CSS my-2 ms-2" data-skill="CSS">CSS</div>
+                    </div>
                         </div>
-                        <div class="flip-card">
-                            <div class="flip-card-inner">
-                                <div class="flip-card-front">
-                                <img src="https://i.postimg.cc/yNYbMTkG/bootstrap.png" alt="Avatar" style="width:300px;height:300px;">
-                                </div>
-                                <div class="flip-card-back">
-                                <h1 class="fw-bolder">Bootstrap</h1>
-                                <h2>✅</h2> 
-                                <p class="fw-bolder fs-3 text-danger-emphasis">•Competency Level•</p> 
-                                <p class="fw-bolder fs-3 text-dark-emphasis">Expert</p>
-                                </div>
-                            </div>
-                            </div>
-                </div>
-                <div class="flip-card  m-auto justify-content-center">
-                <div class="flip-card-inner">
-                    <div class="flip-card-front">
-                    <img src="https://i.postimg.cc/FRGs9pZJ/pngegg-3.png" alt="Avatar" style="width:300px;height:300px;">
+                        <br>
+                        <div class="col-sm-4-4 text-white text-shadow-white rounded-3 py-5 bible" data-aos="fade-up-right">
+                            <h1 class="display-5 text-decoration-underline kage animated-charcter fw-bolder">BootStrap5</h1> <br>
+                            <h2 class="display-6 text-decoration-underline kage animate-charcter fw-bold">Coding Language:</h2> <br>
+                            <p class="lead display-5 text-decoration-underline kage animate-charcter fw-semibold">:Web Development:</p> <br>
+                            <p class="lead display-5 text-decoration-underline kage animate-charcter fw-semibold">Able To Code & Style Web Pages</p> <br> 
+    <!-- skillbar -->
+                          <h4 class="display-5 text-decoration-underline kage animated-charcter fw-semibold" id="Skills">:Proggress•Bar:</h4>
+                            <div class="skillbar text-light text-center text-nowrap">
+                      <div class="Bootstrap my-2 ms-2" data-skill="Bootstrap">Bootstrap</div>
                     </div>
-                    <div class="flip-card-back">
-                    <h1 class="fw-bolder">JavaScript</h1>
-                    <h2>✅</h2> 
-                    <p class="fw-bolder fs-3 text-danger-emphasis">•Competency Level•</p> 
-                    <p class="fw-bolder fs-3 text-dark-emphasis">Intermediate</p>
+                        </div>
+                        <br>
+                        <div class="col-sm-4-4 text-white text-shadow-white rounded-3 py-5 bible" data-aos="fade-up-left">
+                            <h1 class="display-5 text-decoration-underline kage animated-charcter fw-bolder">JavaScript</h1> <br>
+                            <h2 class="display-6 text-decoration-underline kage animate-charcter fw-bold">Coding Language</h2> <br>
+                            <p class="lead display-5 text-decoration-underline kage animate-charcter fw-semibold">Web Development</p> <br>
+                            <p class="lead display-5 text-decoration-underline kage animate-charcter fw-semibold">Able To Use Js for Page Functionality</p> <br>
+    <!-- skillbar -->
+                          <h4 class="display-5 text-decoration-underline kage animated-charcter fw-semibold" id="Skills">:Proggress•Bar:</h4>
+                          <div class="skillbar text-light text-center text-nowrap">
+                    <div class="JavaScript my-2 ms-2" data-skill="JavaScript">JavaScript</div>
+                  </div>
+                        </div>
                     </div>
-                </div>
-                </div>
-                <div class="flip-card m-auto mt-2 justify-content-center">
-                <div class="flip-card-inner">
-                    <div class="flip-card-front">
-                    <img src="https://i.postimg.cc/j2KN1Mjw/pngegg-4.png" alt="Avatar" style="width:300px;height:300px;">
-                    </div>
-                    <div class="flip-card-back">
-                    <h1 class="fw-bolder">VUE-JS</h1>
-                    <h2>✅</h2> 
-                    <p class="fw-bolder fs-3 text-danger-emphasis">•Competency Level•</p> 
-                    <p class="fw-bolder fs-3 text-dark-emphasis">Intermediate</p>
-                    </div>
-                </div>
-                </div>
-            </div>
             
 </div>
 </template>
@@ -132,50 +115,10 @@ export default {
 };
 </script>
 <style>
-.resume{
-    margin-top: 8rem;
+<!-- .resume{
+margin-top: 8rem;
 }
 body {
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  .flip-card {
-    background-color: transparent;
-    width: 300px;
-    height: 300px;
-    perspective: 1000px;
-  }
-  
-  .flip-card-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.6s;
-    transform-style: preserve-3d;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  }
-  
-  .flip-card:hover .flip-card-inner {
-    transform: rotateY(180deg);
-  }
-  
-  .flip-card-front, .flip-card-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-  }
-  
-  .flip-card-front {
-    background-color: #bbb;
-    color: black;
-  }
-  
-  .flip-card-back {
-    background-color: #2980b9;
-    color: white;
-    transform: rotateY(180deg);
-  }    
+font-family: Arial, Helvetica, sans-serif;
+}
 </style>

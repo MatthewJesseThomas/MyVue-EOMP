@@ -114,19 +114,19 @@ footer {
 /* KeyFrames */
 @keyframes fill-animation1 {
     from{left:1%;}
-    to{width: 90%;}
+    to{width: 93%;}
 }
 @keyframes fill-animation2 {
     from{left:1%;}
-    to{width: 80%;}
+    to{width: 93%;}
 }
 @keyframes fill-animation3 {
     from{left:1%;}
-    to{width: 85%;}
+    to{width: 93%;}
 }
 @keyframes fill-animation4 {
     from{left:1%;}
-    to{width: 0%;}
+    to{width: 93%;}
 }
 /* KeyFramesEnd */
 .skillbar {
