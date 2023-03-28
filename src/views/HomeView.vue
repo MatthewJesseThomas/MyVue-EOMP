@@ -19,7 +19,7 @@
                                 I saw a recent article on managing Developers in the Software Industry and had to Commence. I've managed to accelerate my Developmental Process in Web & Software Development, which has contributed toward as much as 90% growth in as few as three months time.</p> 
                         </div>
                   </div>
-                  <div class="img-fluids d-flex alert-danger flex-column flex-sm-row">
+                  <div class="img-fluids d-flex border-alert-danger flex-column flex-sm-row">
                       <img class="img-fluid my-3 resize image-rounded" data-aos="fade-right"
                           src="https://i.postimg.cc/VkDNNx72/Profile-Pic4.jpg"
                           alt="Matthew profile" loading="lazy">
@@ -32,7 +32,7 @@
                         </div>
                   </div>
               </div>
-              <figcaption class="animated-charcter fw-semibold my-5">
+              <figcaption class="animated-charcter fw-semibold">
                   <p class="text-light"><strong>Aspiring Developer | Aspiring Web Designer | Aspiring Coder</strong></p>
               </figcaption>
           </figure>
@@ -55,15 +55,13 @@ figcaption{
     background-color: rgb(36, 54, 54);
 }
 .image-round{
-    margin-top: 4rem !important;
     width: 600px;
-    height: 350px;
+    height: 450px;
     border-radius: 1500px;
 }
 .image-rounded{
-    margin-top: 5rem !important;
     width: 600px;
-    height: 350px;
+    height: 450px;
     border-radius: 1500px;
 }
 </style>

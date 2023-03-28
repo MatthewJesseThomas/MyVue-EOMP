@@ -15,9 +15,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-body, section {
+body {
     overflow-x: hidden;
-    background: linear-gradient(90deg, rgba(129,158,148,1) 100%, rgba(0,212,255,1) 100%, rgba(23,22,52,1) 100%, rgba(27,80,77,1) 100%);
+    background-image: linear-gradient(90deg, rgba(129,158,148,1) 100%, rgba(0,212,255,1) 100%, rgba(23,22,52,1) 100%, rgba(27,80,77,1) 100%);
 }
 /* Header Styles */
 .logo {
@@ -57,17 +57,13 @@ main {
     border-radius: 2rem;
 }
 /* Text-Shadowing */
-/* .kage {
+.kage {
     text-shadow: 1px 1px 3px rgb(61, 109, 171) ;
-} */
-/* .kami {
-    text-shadow: 1px 1px 3px ;
-} */
-/* Main-Background-Bar  */
-.barney {
-    /* background: linear-gradient(90deg, rgba(129,158,148,1) 100%, rgba(0,212,255,1) 100%, rgba(23,22,52,1) 100%, rgba(27,80,77,1) 100%); */
-    background-color: #2F2E3D;
 }
+.kami {
+    text-shadow: 1px 1px 3px ;
+}
+/* Main-Background-Bar  */
 /* Image-Sizing */
 .resize {
     width: 33.5rem;
@@ -112,58 +108,6 @@ footer {
     scale: 1.1;
 }
 /* End-Of-Welcome-Page-style */
-/* KeyFrames */
-@keyframes fill-animation1 {
-    from{left:1%;}
-    to{width: 93%;}
-}
-@keyframes fill-animation2 {
-    from{left:1%;}
-    to{width: 93%;}
-}
-@keyframes fill-animation3 {
-    from{left:1%;}
-    to{width: 93%;}
-}
-@keyframes fill-animation4 {
-    from{left:1%;}
-    to{width: 93%;}
-}
-/* KeyFramesEnd */
-.skillbar {
-    background-color: black;
-    height: 25px;
-    border-radius: 10px;
-}
-.HTML5 {
-    color: rgb(255, 255, 255);
-    background-color: darkblue;
-    border-radius: 10px;
-    animation: fill-animation1 5s forwards infinite;
-    width: 10%;
-}
-.CSS {
-    color: rgb(255, 255, 255);
-    background-color: lightgreen;
-    border-radius: 10px;
-    animation: fill-animation2 5s forwards infinite;
-    width: 10%;
-}
-.Bootstrap {
-    color: rgb(255, 255, 255);
-    background-color: darkorchid;
-    border-radius: 10px;
-    animation: fill-animation3 5s forwards infinite;
-    width: 10%;
-}
-.JavaScript {
-    color: rgb(255, 255, 255);
-    background-color: rgba(105, 79, 118, 0.977);
-    border-radius: 10px;
-    animation: fill-animation4 5s forwards infinite;
-    width: 10%;
-}
-/* KeyFrames End */
 /* Animation-KeyFrame */
 @keyframes spining {
     0% {
