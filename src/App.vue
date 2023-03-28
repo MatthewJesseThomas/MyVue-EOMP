@@ -2,14 +2,18 @@
   <NavBar/>
   <router-view/>
   <Footer/>
+  <Bubbles/>
+
 </template>
 <script>
 import NavBar from './components/NavBar.vue'
 import Footer from './components/Footer.vue'
+import Bubbles from './components/BubbleComponent.vue'
 export default {
   components: {
     Footer,
-    NavBar
+    NavBar,
+    Bubbles
   }
 };
 </script>

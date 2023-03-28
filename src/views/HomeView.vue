@@ -39,12 +39,11 @@
       </div>
   </section>
   </div>
+  <BubbleComponent/>
 </template>
 
 <script>
-
 export default {
-
 }
 </script>
 <style scoped>
