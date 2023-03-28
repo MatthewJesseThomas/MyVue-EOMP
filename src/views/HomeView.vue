@@ -32,7 +32,7 @@
                         </div>
                   </div>
               </div>
-              <figcaption class="animated-charcter fw-semibold">
+              <figcaption class="animated-charcter fw-semibold my-5">
                   <p class="text-light"><strong>Aspiring Developer | Aspiring Web Designer | Aspiring Coder</strong></p>
               </figcaption>
           </figure>
@@ -47,7 +47,7 @@ export default {
 
 }
 </script>
-<style>
+<style scoped>
 .home{
     margin-top: 9rem;
 }
@@ -55,13 +55,15 @@ figcaption{
     background-color: rgb(36, 54, 54);
 }
 .image-round{
+    margin-top: 4rem !important;
     width: 600px;
-    height: 400px;
+    height: 350px;
     border-radius: 1500px;
 }
 .image-rounded{
-    width: 1000px;
-    height: 400px;
+    margin-top: 5rem !important;
+    width: 600px;
+    height: 350px;
     border-radius: 1500px;
 }
 </style>
