@@ -54,7 +54,7 @@ export default {
 <style>
 #contact{
     margin-top: 9rem;
-    z-index: 1000;
+    z-index: 1;
     position: relative;
 }
 .bttn{

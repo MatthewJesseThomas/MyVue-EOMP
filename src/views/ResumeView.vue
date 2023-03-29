@@ -1,87 +1,80 @@
 <template>
-<div class="container-fluid text-center resume">
-    <div class="row">
-        <div class="col rounded-3">
-            <h1 class="display-5 Shinobi text-light mx-3 my-3 kage animated-charcter fw-bolder">Resume</h1>
-        </div>
-    </div>
-            <div class="col-sm-4-4 text-white text-shadow-white rounded-3 py-5 bible w-75 m-auto justify-content-center">
-                <h1 class="display-5 text-decoration-underline kage animated-charcter fw-bolder">EDUCATION</h1> <br>
-                <h1 class="display-5 text-decoration-underline kage animate-charcter fw-bolder">Matriculated From:</h1> <br>
-                <h2 class="display-6 kage animate-charcter fw-bold">{{ resume[0].school }} </h2> <br>
-                <p class="lead display-6 kage animate-charcter fw-semibold">Year Of Matriculation: <br> {{ resume[0].matriculation }} </p> <br>
-                <p class="lead display-6 kage animate-charcter fw-semibold">Matriculated With: <br> Bachelors</p> <br>
-            </div>
-            <br>
-            <div class="col-sm-4-4 text-white text-shadow-white rounded-3 py-5 bible w-75 m-auto justify-content-center">
-                <h1 class="display-5 text-decoration-underline kage animated-charcter fw-bolder">EDUCATION</h1> <br>
-                <h1 class="display-5 kage animate-charcter fw-bolder">{{ resume[1].typeOfEducation }}</h1> <br>
-                <h2 class="display-6  kage animate-charcter fw-bold">{{resume[1].school}}</h2> <br>
-                <p class="lead display-5 kage animate-charcter fw-semibold">{{resume[1 ].attended}}</p> <br>
-            </div>
-            <br>
-            <div class="col-sm-4-4 text-white text-shadow-white rounded-3 py-5 bible w-75 m-auto justify-content-center">
-                <h1 class="display-5 text-decoration-underline kage animated-charcter fw-bolder">|EXPERIENCE:|</h1>
-                <h2 class="display-6 kage animate-charcter fw-bold">{{ resume[2].retail }} <br>{{ resume[2].when }} <br> {{ resume[2].fb }} <br> {{ resume[2].date }} <br> {{ resume[2].engineering }} <br> {{ resume[2].timeSpent }} <br> {{ resume[2].developer }} <br> {{ resume[2].timeFrame }} </h2>
-            </div>
-            <div class="container-fluid text-center">
-                <div class="row">
-                    <div class="col rounded-3" data-aos="fade-up">
-                        <h1 class="display-5 Shinobi text-light text-shad-white mx-3 my-3 kage animated-charcter fw-bolder">|Skills|</h1>
-                    </div>
-                </div>
-                    <!-- <div class="row"> -->
-                        <div class="col-sm-4-4 text-white text-shadow-white rounded-3 py-5 bible" data-aos="fade-up-right">
-                            <h1 class="display-5 text-decoration-underline kage animated-charcter fw-bolder">HTML5</h1> <br>
-                            <h2 class="display-6 text-decoration-underline kage animate-charcter fw-bold">Coding Language:</h2> <br>
-                      <p class="lead display-5 text-decoration-underline kage animate-charcter fw-semibold">:Web Development:</p> <br>
-                      <p class="lead display-5 text-decoration-underline kage animate-charcter fw-semibold">Able To Code Web Pages</p> <br>
-    <!-- skillbar -->
-                            <h4 class="display-5 text-decoration-underline kage animated-charcter fw-semibold" id="Skills">:Proggress•Bar:</h4>
-                    <div class="skillbar text-light text-center text-nowrap">
-                        <div class="HTML5 my-2 ms-2" data-skill="HTML5">HTML5</div>
-                    </div>
-                        </div>
-                    <!-- </div> -->
-                    <br>
-                        <div class="col-sm-4-4 text-white text-shadow-white rounded-3 py-5 bible" data-aos="fade-up-left">
-                            <h1 class="display-5 text-decoration-underline kage animated-charcter fw-bolder">CSS3</h1> <br>
-                            <h2 class="display-6 text-decoration-underline kage animate-charcter fw-bold">Coding Language:</h2> <br>
-                            <p class="lead display-5 text-decoration-underline kage animate-charcter fw-semibold">:Web Development:</p> <br>
-                            <p class="lead display-5 text-decoration-underline kage animate-charcter fw-semibold">Able To Style Web Pages</p> <br>
-    <!-- skillbar -->
-                          <h4 class="display-5 text-decoration-underline kage animated-charcter fw-semibold" id="Skills">:Proggress•Bar:</h4>
-                            <div class="skillbar text-light text-center text-nowrap">
-                        <div class="CSS my-2 ms-2" data-skill="CSS">CSS</div>
-                    </div>
-                        </div>
-                        <br>
-                        <div class="col-sm-4-4 text-white text-shadow-white rounded-3 py-5 bible" data-aos="fade-up-right">
-                            <h1 class="display-5 text-decoration-underline kage animated-charcter fw-bolder">BootStrap5</h1> <br>
-                            <h2 class="display-6 text-decoration-underline kage animate-charcter fw-bold">Coding Language:</h2> <br>
-                            <p class="lead display-5 text-decoration-underline kage animate-charcter fw-semibold">:Web Development:</p> <br>
-                            <p class="lead display-5 text-decoration-underline kage animate-charcter fw-semibold">Able To Code & Style Web Pages</p> <br> 
-    <!-- skillbar -->
-                          <h4 class="display-5 text-decoration-underline kage animated-charcter fw-semibold" id="Skills">:Proggress•Bar:</h4>
-                            <div class="skillbar text-light text-center text-nowrap">
-                      <div class="Bootstrap my-2 ms-2" data-skill="Bootstrap">Bootstrap</div>
-                    </div>
-                        </div>
-                        <br>
-                        <div class="col-sm-4-4 text-white text-shadow-white rounded-3 py-5 bible" data-aos="fade-up-left">
-                            <h1 class="display-5 text-decoration-underline kage animated-charcter fw-bolder">JavaScript</h1> <br>
-                            <h2 class="display-6 text-decoration-underline kage animate-charcter fw-bold">Coding Language</h2> <br>
-                            <p class="lead display-5 text-decoration-underline kage animate-charcter fw-semibold">Web Development</p> <br>
-                            <p class="lead display-5 text-decoration-underline kage animate-charcter fw-semibold">Able To Use Js for Page Functionality</p> <br>
-    <!-- skillbar -->
-                          <h4 class="display-5 text-decoration-underline kage animated-charcter fw-semibold" id="Skills">:Proggress•Bar:</h4>
-                          <div class="skillbar text-light text-center text-nowrap">
-                    <div class="JavaScript my-2 ms-2" data-skill="JavaScript">JavaScript</div>
-                  </div>
-                        </div>
-                    </div>
-            
-</div>
+    <h1>Welcome To my Resume Page...</h1>
+<section class="timeline-section">
+	<div class="timeline-items">
+		<div class="timeline-item">
+			<div class="timeline-dot"></div>
+			<div class="timeline-date">2015</div>
+			<div class="timeline-content">
+				<h2>EDUCATION</h2>
+				<h3>Matriculated From:</h3>
+				<h4 class="text-white">{{ resume[0].school }}</h4>
+				<h4 class="text-white">Year Of Matriculation: <br> {{ resume[0].matriculation }} </h4>
+				<h4 class="text-white">Matriculated With: <br> Bachelors</h4>
+			</div>
+		</div>
+		<div class="timeline-item">
+			<div class="timeline-dot"></div>
+			<div class="timeline-date">2016</div>
+			<div class="timeline-content">
+				<h2>EDUCATION</h2>
+				<h3>{{ resume[1].typeOfEducation }}</h3>
+				<h4 class="text-white">{{resume[1].school}}</h4>
+				<h4 class="text-white">{{resume[1 ].attended}}</h4>
+			</div>
+		</div>
+		<div class="timeline-item">
+				<h2>|EXPERIENCE|</h2>
+			<div class="timeline-dot"></div>
+			<div class="timeline-date">2017</div>
+			<div class="timeline-content">
+				<h3>EXPERIENCE:</h3>
+				<h4 class="text-white">{{ resume[2].retail }} <br>{{ resume[2].when }} <br> {{ resume[2].fb }} <br> {{ resume[2].date }} <br> {{ resume[2].engineering }} <br> {{ resume[2].timeSpent }} <br> {{ resume[2].developer }} <br> {{ resume[2].timeFrame }} </h4>
+			</div>
+		</div>
+		<div class="timeline-item">
+                <h2>|Skills|</h2>
+			<div class="timeline-dot"></div>
+			<div class="timeline-date">2022</div>
+			<div class="timeline-content">
+				<h3>HTML5</h3>
+				<h4 class="text-white">Coding Language:</h4>
+				<h4 class="text-white">:Web Development:</h4>
+				<h4 class="text-white">Ability To Design Web Pages.</h4>
+			</div>
+		</div>
+		<div class="timeline-item">
+			<div class="timeline-dot"></div>
+			<div class="timeline-date">2022</div>
+			<div class="timeline-content">
+				<h3>CSS3</h3>
+				<h4 class="text-white">Coding Language:</h4>
+				<h4 class="text-white">:Web Development:</h4>
+				<h4 class="text-white">Ability To Style Web Pages.</h4>
+			</div>
+		</div>
+		<div class="timeline-item">
+			<div class="timeline-dot"></div>
+			<div class="timeline-date">2022</div>
+			<div class="timeline-content">
+				<h3>BootStrap5</h3>
+				<h4 class="text-white">Coding Language:</h4>
+				<h4 class="text-white">:Web Development:</h4>
+				<h4 class="text-white">Ability To Develop and Style Web Pages.</h4>
+			</div>
+		</div>
+		<div class="timeline-item">
+			<div class="timeline-dot"></div>
+			<div class="timeline-date">2022</div>
+			<div class="timeline-content">
+				<h3>JavaScript</h3>
+				<h4 class="text-white">Coding Language:</h4>
+				<h4 class="text-white">:Web Development:</h4>
+				<h4 class="text-white">To Use Javascript to add Functionality to websites.</h4>
+			</div>
+		</div>
+	</div>
+</section>
 </template>
 <script>
 export default {
@@ -119,6 +112,94 @@ export default {
 margin-top: 8rem;
 }
 body {
-font-family: Arial, Helvetica, sans-serif;
+font-family: 'Poppins', 'Arial', 'Helvetica', 'sans-serif';
+}
+.timeline-section{
+	background-color: #c7ced31a;
+	min-height: 100vh;
+	padding: 100px 15px;
+}
+.timeline-content:hover{
+    scale: 1.1;
+}
+.timeline-items{
+	max-width: 1000px;
+	margin:auto;
+	display: flex;
+	flex-wrap: wrap;
+	position: relative;
+}
+.timeline-items::before{
+	content: '';
+	position: absolute;
+	width: 2px;
+	height: 100%;
+	background-color: #2f363e;
+	left: calc(50% - 1px);
+}
+.timeline-item{
+	margin-bottom: 40px;
+	width: 100%;
+	position: relative;
+}
+.timeline-item:last-child{
+	margin-bottom: 0;
+}
+.timeline-item:nth-child(odd){
+    padding-right: calc(50% + 30px);
+	text-align: right;
+}
+.timeline-item:nth-child(even){
+    padding-left: calc(50% + 30px);
+}
+.timeline-dot{
+	height: 16px;
+	width: 16px;
+	background-color: #eaa023;
+	position: absolute;
+	left: calc(50% - 8px);
+	border-radius: 50%;
+	top:10px;
+}
+.timeline-date{
+	font-size: 18px;
+	color: #eaa023;
+	margin:6px 0 15px;
+}
+.timeline-content{
+    background-color: #2f363e;
+	padding: 30px;
+	border-radius: 5px;
+}
+.timeline-content h3{
+    font-size: 20px;
+	color: #ffffff;
+	margin:0 0 10px;
+	text-transform: capitalize;
+	font-weight: 500;
+}
+.timeline-content p{
+    color: #c8c8c8;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 22px;
+}
+
+/* responsive */
+@media(max-width: 767px){
+	.timeline-items::before{
+		left: 7px;
+	}
+	.timeline-item:nth-child(odd){
+		padding-right: 0;
+		text-align: left;
+	}
+	.timeline-item:nth-child(odd),
+	.timeline-item:nth-child(even){
+		padding-left: 37px;
+	}
+	.timeline-dot{
+		left:0;
+	}
 }
 </style>

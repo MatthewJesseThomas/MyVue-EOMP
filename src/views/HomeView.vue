@@ -38,12 +38,15 @@
           </figure>
       </div>
   </section>
+  <Bubbles/>
   </div>
-  <BubbleComponent/>
 </template>
-
 <script>
+import Bubbles from '../components/BubbleComponent.vue'
 export default {
+    components:{
+        Bubbles
+    }
 }
 </script>
 <style scoped>

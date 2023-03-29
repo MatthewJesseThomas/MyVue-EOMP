@@ -1,8 +1,8 @@
 <template>
   <NavBar/>
-  <Bubbles/>
   <main>
     <router-view/>
+    <Bubbles/>
   </main>
   <Footer/>
 
