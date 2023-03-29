@@ -1,8 +1,10 @@
 <template>
   <NavBar/>
-  <router-view/>
-  <Footer/>
   <Bubbles/>
+  <main>
+    <router-view/>
+  </main>
+  <Footer/>
 
 </template>
 <script>
@@ -43,5 +45,8 @@ nav a {
 
 nav a.router-link-exact-active {
   color: #42b983;
+}
+main{
+  z-index: 2;
 }
 </style>

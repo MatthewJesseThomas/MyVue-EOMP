@@ -1,7 +1,7 @@
 <template>
     <section class="sticky">
         <div class="bubbles">
-            <div class="bubble"></div>
+          <div class="bubble"></div>
           <div class="bubble"></div>
           <div class="bubble"></div>
           <div class="bubble"></div>
@@ -33,16 +33,17 @@ body,html{
     background:#29b6f6;
   }
   .bubbles{
-    position:absolute;
+    position: absolute;
     width:100%;
     height: 100%;
-    z-index:0;
+    z-index: 1;
     overflow:hidden;
     top:0;
     left:0;
   }
   .bubble{
     position: absolute;
+    z-index: 1;
     bottom:-100px;
     width:40px;
     height: 40px;
