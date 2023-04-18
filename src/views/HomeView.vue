@@ -38,14 +38,11 @@
           </figure>
       </div>
   </section>
-  <Bubbles/>
   </div>
 </template>
 <script>
-import Bubbles from '../components/BubbleComponent.vue'
 export default {
     components:{
-        Bubbles
     }
 }
 </script>
