@@ -1,5 +1,5 @@
 <template>
-    <div class="border">
+    <div>
         <ContactForm/>
     </div>
 </template>
@@ -12,7 +12,5 @@ export default {
 };
 </script>
 <style>
-.border{
-    border: 10rem 10rem red solid !important;
-}
+
 </style>

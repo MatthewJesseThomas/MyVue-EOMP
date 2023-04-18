@@ -2,7 +2,7 @@
     <div>
         <section id="contact" class="container-fluid text-center">
         <h2 class="display-4 text-light mt-0 kage fw-bolder" data-aos="zoom-in">Contact</h2>
-        <div class="container">
+        <div class="container container-border">
             <form action="https://formspree.io/f/mdovovaj" method="POST" default class="m-2">
                 <div >
                     <label for="#firstname" class="fs-1 animate-charcter fw-bold">Name</label>
@@ -67,7 +67,7 @@ export default {
     color: #163e2c;
     background-color: #42b983;
 }  
-.container{
+.container-border{
     border: 2rem rebeccapurple solid;
 }
 </style>

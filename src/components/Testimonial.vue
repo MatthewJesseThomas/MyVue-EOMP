@@ -82,7 +82,7 @@ export default {
   width: 15rem;
 }
 .card-body {
-  height: 40rem;
+  height: 30rem;
 }
 
 </style>
