@@ -25,9 +25,9 @@ export default {
   color: #2c3e50;
   overflow-x: hidden;
   overflow-y: hidden;
-  background: #e8cbc0;
-  background: -webkit-linear-gradient(to right, #e8cbc0, #636fa4);
-  background: linear-gradient(to right, #e8cbc0, #636fa4);
+  background-image: url(https://i.postimg.cc/63s4CfdH/efe-kurnaz-Rn-CPi-Xixoo-Y-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
   min-height: 100vh;
 }
 
@@ -46,4 +46,9 @@ nav a.router-link-exact-active {
 main{
   z-index: 2;
 }
+/* 
+background: #e8cbc0;
+background: -webkit-linear-gradient(to right, #e8cbc0, #636fa4);
+background: linear-gradient(to right, #e8cbc0, #636fa4);
+*/
 </style>

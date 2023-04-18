@@ -13,7 +13,7 @@
                           src="https://i.postimg.cc/xTXJBTtq/Profile-Pic1.jpg"
                           alt="Matthew profile" loading="lazy">
                         <div class="col-sm-4-4 text-white text-shadow-white rounded-3 py-5 bible border-5 w-100 h-100 mt-5" data-aos="flip-down">
-                            <p class="text-light align-self-center justify-content-md-around fw-bolder">
+                            <p class="text-light align-self-center my-5 mt-5 justify-content-md-around fw-bolder">
                                 Hello There, I am Matthew Jesse Thomas,
                                 I'm inspired by the work I've done in Software Development in all its success, and not to mention my unique career path Choice.
                                 I saw a recent article on managing Developers in the Software Industry and had to Commence. I've managed to accelerate my Developmental Process in Web & Software Development, which has contributed toward as much as 90% growth in as few as three months time.</p> 
@@ -24,7 +24,7 @@
                           src="https://i.postimg.cc/VkDNNx72/Profile-Pic4.jpg"
                           alt="Matthew profile" loading="lazy">
                           <div class="col-sm-4-4 text-white text-shadow-white rounded-3 py-5 bible border-5 w-100 h-100 mt-5" data-aos="flip-down">
-                            <p class="text-light align-self-center justify-content-md-around fw-bolder">
+                            <p class="text-light align-self-center my-5 mt-5 justify-content-md-around fw-bolder">
                                 •Matthew Thomas•
                                 <br>
                                 Its Inspiring to be in the working Industry of Software Development. Success in a Software Development career is Somewhat of a Dream for mine.
@@ -32,9 +32,6 @@
                         </div>
                   </div>
               </div>
-              <figcaption class="animated-charcter fw-semibold">
-                  <p class="text-light"><strong>Aspiring Developer | Aspiring Web Designer | Aspiring Coder</strong></p>
-              </figcaption>
           </figure>
       </div>
   </section>
@@ -49,9 +46,6 @@ export default {
 <style scoped>
 .home{
     margin-top: 9rem;
-}
-figcaption{
-    background-color: rgb(36, 54, 54);
 }
 .image-round{
     width: 600px;
