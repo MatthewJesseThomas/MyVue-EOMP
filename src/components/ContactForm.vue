@@ -3,7 +3,7 @@
         <section id="contact" class="container-fluid text-center">
         <h2 class="display-4 text-light mt-0 kage fw-bolder" data-aos="zoom-in">Contact</h2>
         <div class="container">
-            <form action="https://formspree.io/f/mdovovaj" method="POST" default>
+            <form action="https://formspree.io/f/mdovovaj" method="POST" default class="m-2">
                 <div >
                     <label for="#firstname" class="fs-1 animate-charcter fw-bold">Name</label>
                     <input id="firstname" name="firstName" type="text" placeholder="Enter your name" required  class="w-100">
@@ -32,7 +32,7 @@
             </form>
         </div> 
         <br>
-        <ul class="list-unstyled text-light bg-dark offsite kage animate-charcter" data-aos="flip-left"
+        <!-- <ul class="list-unstyled text-light bg-dark offsite kage animate-charcter" data-aos="flip-left"
         data-aos-easing="ease-out-cubic"
         data-aos-duration="2000">
             <li><strong>Telephone:0213713910</strong></li>
@@ -41,7 +41,7 @@
             <br>
             <li><strong>owlsaintgermain@gmail.com</strong></li>
             <br>
-        </ul>
+        </ul> -->
         </section>
     </div>
 </template>
@@ -67,4 +67,7 @@ export default {
     color: #163e2c;
     background-color: #42b983;
 }  
+.container{
+    border: 2rem rebeccapurple solid;
+}
 </style>
