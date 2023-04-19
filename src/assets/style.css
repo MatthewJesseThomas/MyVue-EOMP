@@ -81,7 +81,7 @@ input, textarea {
 .offsite {
     background-color:#fbfbfb;
     border-style: groove;
-    width: fit-content;
+    width: 45%;
     margin: 0 auto;
     padding: 0 5px;
     /* margin-left: 650px; */

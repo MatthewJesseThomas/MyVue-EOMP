@@ -1,7 +1,7 @@
 <template>
-    <div>
-        <section id="contact" class="container-fluid text-center">
-        <h2 class="display-4 text-light mt-0 kage fw-bolder" data-aos="zoom-in">Contact</h2>
+    <h2 class="display-4 text-light mt-0 kage fw-bolder" data-aos="zoom-in">Contact</h2>
+    <div class="Ama-Superstar">
+    <div id="contact" class="container-fluid text-center">
         <div class="container container-border">
             <form action="https://formspree.io/f/mdovovaj" method="POST" default class="m-2">
                 <div >
@@ -32,18 +32,38 @@
             </form>
         </div> 
         <br>
-        <!-- <ul class="list-unstyled text-light bg-dark offsite kage animate-charcter" data-aos="flip-left"
-        data-aos-easing="ease-out-cubic"
-        data-aos-duration="2000">
-            <li><strong>Telephone:0213713910</strong></li>
-            <br>
-            <li><strong>Cellphone:0827294648</strong></li>
-            <br>
-            <li><strong>owlsaintgermain@gmail.com</strong></li>
-            <br>
-        </ul> -->
-        </section>
     </div>
+    <div class="Contact-Info text-dark  kage animate-charcter w-50">
+        <div class="Contact-Info-Name">
+            <h1>Name</h1>
+            <h2>Matthew Jesse Thomas</h2>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="Contact-Info-Email">
+            <h1>Email</h1>
+            <h2>owlsaintgermain@gmail.com</h2>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="Contact-Info-Phone">
+            <h1>Phone Number</h1>
+            <h2>0827294648</h2>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="Contact-Info-Address">
+            <h1>Address</h1>
+            <h3>South Africa</h3>
+            <h3>Western Cape</h3>
+            <h3>Cape Town</h3>
+            <h3>Mitchell's Plain</h3>
+        </div>
+    </div>
+</div>
 </template>
 <script>
 export default {
@@ -53,7 +73,13 @@ export default {
 </script>
 <style>
 #contact{
-    margin-top: 9rem;
+    margin-top: 5rem;
+    z-index: 1;
+    position: relative;
+}
+.Contact-Info{
+    margin-top: 7rem;
+    margin-right: 5rem;
     z-index: 1;
     position: relative;
 }
@@ -64,10 +90,22 @@ export default {
 } 
 .bttn:hover{
     scale: 1.1;
-    color: #163e2c;
-    background-color: #42b983;
-}  
-.container-border{
-    border: 2rem rebeccapurple solid;
+    color: #638889;
+    background-color: #663399;
+} 
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+
+.Ama-Superstar{
+    margin: auto;
+    justify-content: space-between;
+    display: flex;
+    background-color: #63888951;
 }
 </style>
