@@ -48,8 +48,8 @@ export default {
     margin-top: 9rem;
 }
 .image-round{
-    width: 600px;
-    height: 450px;
+    width: 580px;
+    height: 430px;
     border-radius: 1500px;
 }
 .image-rounded{

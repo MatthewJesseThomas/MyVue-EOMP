@@ -46,9 +46,7 @@
           </li>
           <li class="nav-item">
             <router-link class="navLink" to="/testimonial"
-              >Testimonial</router-link
-            >
-            |
+              >Testimonial</router-link>|
           </li>
           <li class="nav-item">
             <router-link class="navLink" to="/contact">Contact</router-link> |
@@ -72,6 +70,7 @@ nav {
 }
 .navLink:hover {
   color: #42b983;
+  ;
 }
 
 </style>

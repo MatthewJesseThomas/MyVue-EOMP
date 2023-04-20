@@ -1,10 +1,11 @@
 <template>
-    <h1>Welcome To my Resume Page...</h1>
+    <h1 class="text-light">Welcome To my Resume Page...</h1>
 <section class="timeline-section">
 	<div class="timeline-items">
 		<div class="timeline-item">
+			<h2>|Secondary Education|</h2>
 			<div class="timeline-dot"></div>
-			<div class="timeline-date">2015</div>
+			<div class="timeline-date">2012</div>
 			<div class="timeline-content">
 				<h2>EDUCATION</h2>
 				<h3>Matriculated From:</h3>
@@ -14,8 +15,9 @@
 			</div>
 		</div>
 		<div class="timeline-item">
+			<h2>|Tertiary Education|</h2>
 			<div class="timeline-dot"></div>
-			<div class="timeline-date">2016</div>
+			<div class="timeline-date">2017</div>
 			<div class="timeline-content">
 				<h2>EDUCATION</h2>
 				<h3>{{ resume[1].typeOfEducation }}</h3>

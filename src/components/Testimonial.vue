@@ -1,7 +1,7 @@
 <template>
   <div class="myCards">
     <div
-      class="row text-light rounded-3 py-5 bible"
+      class="row text-light rounded-3 py-5 "
       data-aos="flip-right"
       data-aos-easing="ease-out-cubic"
       data-aos-duration="2000"
@@ -28,7 +28,7 @@
       </div>
     </div>
     <div
-      class="row text-light rounded-3 py-5 bible"
+      class="row text-light rounded-3 py-5 "
       data-aos="flip-left"
       data-aos-easing="ease-out-cubic"
       data-aos-duration="2000"
