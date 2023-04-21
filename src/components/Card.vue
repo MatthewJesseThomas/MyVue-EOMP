@@ -14,7 +14,7 @@ export default {
 }
 </script>
 <style>
-.card:hover{
+.TestimonialCard:hover{
 scale: 1.1;
 box-shadow: .3vw .3vw 1vw #663399;
 
