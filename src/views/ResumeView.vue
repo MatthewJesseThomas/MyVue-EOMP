@@ -76,6 +76,9 @@
 			</div>
 		</div>
 	</div>
+	<button class="btn btn-outline-info btn-dark mt-4 CV text-dark-emphasis">
+		<a href="https://drive.google.com/uc?export=download&id=1dA4Jq-ntZqZ7XSh9XTdWD46gg4f4EMyK">Download CV</a>
+	</button>
 </section>
 </template>
 <script>
@@ -203,5 +206,15 @@ font-family: 'Poppins', 'Arial', 'Helvetica', 'sans-serif';
 	.timeline-dot{
 		left:0;
 	}
+}
+.CV{
+	width: 20rem;
+	height: 5rem;
+	border-radius: 3rem;
+	color: #c8c8c8;
+}
+.CV:hover{
+	scale: 1.08;
+	color:#c8c8c8;
 }
 </style>
