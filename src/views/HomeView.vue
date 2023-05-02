@@ -12,7 +12,7 @@
                       <img class="img-fluid my-5 resize image-round" data-aos="fade-right"
                           src="https://i.postimg.cc/xTXJBTtq/Profile-Pic1.jpg"
                           alt="Matthew profile" loading="lazy">
-                        <div class="col-sm-4-4 myText text-white text-shadow-white rounded-3 py-5 bible border-5 w-75 h-100 mt-5" data-aos="flip-down">
+                        <div class="col-sm-4-4 myText text-white sizings text-shadow-white rounded-3 py-5 bible border-5 w-75 mt-5" data-aos="flip-down">
                             <p class="text-light align-self-center my-5 mt-5 justify-content-md-around fw-bolder">
                                 Hello There, I am Matthew Jesse Thomas,
                                 I'm inspired by the work I've done in Software Development in all its success, and not to mention my unique career path Choice.
@@ -23,7 +23,7 @@
                       <img class="img-fluid my-5 resize2 image-rounded" data-aos="fade-right"
                           src="https://i.postimg.cc/VkDNNx72/Profile-Pic4.jpg"
                           alt="Matthew profile" loading="lazy">
-                          <div class="col-sm-4-4 myText text-white text-shadow-white rounded-3 py-5 bible border-5 w-75 h-100 mt-5" data-aos="flip-down">
+                          <div class="col-sm-4-4 myText text-white sizing text-shadow-white rounded-3 py-5 bible border-5 w-75 mt-5" data-aos="flip-down">
                             <p class="text-light align-self-center my-5 mt-5 justify-content-md-around fw-bolder">
                                 •Matthew Thomas•
                                 <br>
@@ -67,5 +67,11 @@ export default {
 .resize2{
     height: 23rem;
     width: 23rem;
+}
+.sizing{
+    height: 23rem;
+}
+.sizings{
+    height: 22rem;
 }
 </style>
