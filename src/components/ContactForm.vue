@@ -1,6 +1,6 @@
 <template>
     <h2 class="display-4 text-light mt-0 kage fw-bolder" data-aos="zoom-in">Contact</h2>
-    <div class="Ama-Superstar">
+    <div class="Ama-Superstar  w-100">
     <div id="contact" class="container-fluid text-center">
         <div class="container container-border-info">
             <form action="https://formspree.io/f/mdovovaj" method="POST" default class="m-2">
@@ -8,15 +8,15 @@
                     <label for="#firstname" class="fs-1 animate-charcter fw-bold">Name</label>
                     <input id="firstname" name="firstName" type="text" placeholder="Enter your name" required  class="w-100">
                 </div>
-                <div>
+                <div class="myForm">
                     <label for="#firstname" class="fs-1 animate-charcter fw-bold">Surname</label>
                     <input id="surname" name="surname" type="text" placeholder="Enter your surname" required  class="w-100">
                 </div>
-                <div>
+                <div class="myForm">
                     <label for="#email" class="fs-1 animate-charcter fw-bold">Email</label>
                     <input id="Email" name="Email" type="email" placeholder="Enter your Email" required class="w-100">
                 </div>
-                <div>
+                <div class="myForm">
                     <label for="#Response" class="fs-1 animate-charcter fw-bold">Message</label>
                     <textarea name="message" cols="30" rows="10" placeholder="Enter your Message" required type="reset"  class="w-100"></textarea>
                 </div> <br>
@@ -84,4 +84,8 @@ export default {
 .div, input, textarea{
     border-radius: 8px;
 }
+.div, input{
+    height: 3rem;
+}
+
 </style>
