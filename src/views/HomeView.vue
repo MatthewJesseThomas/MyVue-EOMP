@@ -7,12 +7,12 @@
               <h3 class="text-white kage display-6 fw-bold">Matthew Jesse Thomas</h3>
           </div>
           <figure>
-              <div class=" my-auto">
+              <div class="my-auto">
                   <div class="img-fluids d-flex alert-danger flex-column flex-sm-row">
-                      <img class="img-fluid my-3 image-round" data-aos="fade-right"
+                      <img class="img-fluid my-5 resize image-round" data-aos="fade-right"
                           src="https://i.postimg.cc/xTXJBTtq/Profile-Pic1.jpg"
                           alt="Matthew profile" loading="lazy">
-                        <div class="col-sm-4-4 text-white text-shadow-white rounded-3 py-5 bible border-5 w-100 h-100 mt-5" data-aos="flip-down">
+                        <div class="col-sm-4-4 myText text-white text-shadow-white rounded-3 py-5 bible border-5 w-75 h-100 mt-5" data-aos="flip-down">
                             <p class="text-light align-self-center my-5 mt-5 justify-content-md-around fw-bolder">
                                 Hello There, I am Matthew Jesse Thomas,
                                 I'm inspired by the work I've done in Software Development in all its success, and not to mention my unique career path Choice.
@@ -20,10 +20,10 @@
                         </div>
                   </div>
                   <div class="img-fluids d-flex border-alert-danger flex-column flex-sm-row">
-                      <img class="img-fluid my-3 resize image-rounded" data-aos="fade-right"
+                      <img class="img-fluid my-5 resize2 image-rounded" data-aos="fade-right"
                           src="https://i.postimg.cc/VkDNNx72/Profile-Pic4.jpg"
                           alt="Matthew profile" loading="lazy">
-                          <div class="col-sm-4-4 text-white text-shadow-white rounded-3 py-5 bible border-5 w-100 h-100 mt-5" data-aos="flip-down">
+                          <div class="col-sm-4-4 myText text-white text-shadow-white rounded-3 py-5 bible border-5 w-75 h-100 mt-5" data-aos="flip-down">
                             <p class="text-light align-self-center my-5 mt-5 justify-content-md-around fw-bolder">
                                 •Matthew Thomas•
                                 <br>
@@ -50,11 +50,22 @@ export default {
 .image-round{
     width: 580px;
     height: 430px;
-    border-radius: 1500px;
+    border-radius: 15px;
 }
 .image-rounded{
     width: 600px;
     height: 450px;
-    border-radius: 1500px;
+    border-radius: 15px;
+}
+.myText{
+    margin-left: 2rem;
+}
+.resize{
+    height: 22rem;
+    width: 23rem;
+}
+.resize2{
+    height: 23rem;
+    width: 23rem;
 }
 </style>
