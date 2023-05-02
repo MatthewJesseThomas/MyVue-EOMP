@@ -2,9 +2,9 @@
     <h2 class="display-4 text-light mt-0 kage fw-bolder" data-aos="zoom-in">Contact</h2>
     <div class="Ama-Superstar">
     <div id="contact" class="container-fluid text-center">
-        <div class="container container-border">
+        <div class="container container-border-info">
             <form action="https://formspree.io/f/mdovovaj" method="POST" default class="m-2">
-                <div >
+                <div class="myForm">
                     <label for="#firstname" class="fs-1 animate-charcter fw-bold">Name</label>
                     <input id="firstname" name="firstName" type="text" placeholder="Enter your name" required  class="w-100">
                 </div>
@@ -33,36 +33,6 @@
         </div> 
         <br>
     </div>
-    <div class="Contact-Info text-dark  kage animate-charcter w-50">
-        <div class="Contact-Info-Name">
-            <h1>Name</h1>
-            <h2>Matthew Jesse Thomas</h2>
-        </div>
-        <br>
-        <br>
-        <br>
-        <div class="Contact-Info-Email">
-            <h1>Email</h1>
-            <h2>owlsaintgermain@gmail.com</h2>
-        </div>
-        <br>
-        <br>
-        <br>
-        <div class="Contact-Info-Phone">
-            <h1>Phone Number</h1>
-            <h2>0827294648</h2>
-        </div>
-        <br>
-        <br>
-        <br>
-        <div class="Contact-Info-Address">
-            <h1>Address</h1>
-            <h3>South Africa</h3>
-            <h3>Western Cape</h3>
-            <h3>Cape Town</h3>
-            <h3>Mitchell's Plain</h3>
-        </div>
-    </div>
 </div>
 </template>
 <script>
@@ -86,12 +56,12 @@ export default {
 .bttn{
     width: 15rem;
     height: 3rem;
-    border-radius: 2rem;
+    border-radius: 10px;
 } 
 .bttn:hover{
     scale: 1.1;
     color: #638889;
-    background-color: #663399;
+    background-color: #5f3d81b2;
 } 
 .container{
     width: 100%;
@@ -107,5 +77,11 @@ export default {
     justify-content: space-between;
     display: flex;
     background-color: #63888951;
+}
+.myForm{
+    width: 70rem;
+}
+.div, input, textarea{
+    border-radius: 8px;
 }
 </style>

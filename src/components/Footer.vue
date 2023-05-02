@@ -15,7 +15,8 @@
         /></a>
       </p>
       <p class="text-center text-decoration-underline fw-bolder">
-        •South Africa | Cape Town •
+        •South Africa | Western Cape 
+        •Cape Town | Mitchell's Plain •
       </p>
     </footer>
   </div>

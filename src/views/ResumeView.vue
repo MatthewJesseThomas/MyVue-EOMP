@@ -19,7 +19,7 @@
 			<div class="timeline-dot"></div>
 			<div class="timeline-date">2017</div>
 			<div class="timeline-content">
-				<h2>EDUCATION</h2>
+				<h2 class="text-white">EDUCATION</h2>
 				<h3>{{ resume[1].typeOfEducation }}</h3>
 				<h4 class="text-white">{{resume[1].school}}</h4>
 				<h4 class="text-white">{{resume[1 ].attended}}</h4>
