@@ -1,13 +1,13 @@
 <template>
-    <h1 class="text-light">Welcome To my Resume Page...</h1>
+    <h1 class="text-white headingShadow">Welcome To my Resume Page...</h1>
 <section class="timeline-section">
 	<div class="timeline-items">
 		<div class="timeline-item">
-			<h2>|Secondary Education|</h2>
+			<h2 class="myWhite">|Secondary Education|</h2>
 			<div class="timeline-dot"></div>
 			<div class="timeline-date">2012</div>
 			<div class="timeline-content">
-				<h2>EDUCATION</h2>
+				<h2 class="myWhite">EDUCATION</h2>
 				<h3>Matriculated From:</h3>
 				<h4 class="text-white">{{ resume[0].school }}</h4>
 				<h4 class="text-white">Year Of Matriculation: <br> {{ resume[0].matriculation }} </h4>
@@ -15,7 +15,7 @@
 			</div>
 		</div>
 		<div class="timeline-item">
-			<h2>|Tertiary Education|</h2>
+			<h2 class="myWhite">|Tertiary Education|</h2>
 			<div class="timeline-dot"></div>
 			<div class="timeline-date">2017</div>
 			<div class="timeline-content">
@@ -26,7 +26,7 @@
 			</div>
 		</div>
 		<div class="timeline-item">
-				<h2>|EXPERIENCE|</h2>
+				<h2 class="myWhite">|EXPERIENCE|</h2>
 			<div class="timeline-dot"></div>
 			<div class="timeline-date">2017</div>
 			<div class="timeline-content">
@@ -35,7 +35,7 @@
 			</div>
 		</div>
 		<div class="timeline-item">
-                <h2>|Skills|</h2>
+                <h2 class="myWhite">|Skills|</h2>
 			<div class="timeline-dot"></div>
 			<div class="timeline-date">2022</div>
 			<div class="timeline-content">
@@ -216,5 +216,12 @@ font-family: 'Poppins', 'Arial', 'Helvetica', 'sans-serif';
 .CV:hover{
 	scale: 1.08;
 	color:#c8c8c8;
+}
+.myWhite{
+	color: rgba(240, 248, 255, 0.929);
+	text-shadow: .3vw .3vw .3vh rgba(25, 21, 21, 0.826);
+}
+.headingShadow{
+	text-shadow: .3vw .3vw .3vh rgba(25, 21, 21, 0.826);
 }
 </style>
