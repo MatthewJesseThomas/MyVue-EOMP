@@ -15,8 +15,12 @@ export default {
 </script>
 <style>
 .TestimonialCard:hover{
-scale: 1.1;
+scale: 1.08;
 box-shadow: .3vw .3vw 1vw #663399;
-
+}
+.card-img-top{
+    margin-top: 8px;
+    margin-left: 13px;
+    border-radius: 2px ;
 }
 </style>
