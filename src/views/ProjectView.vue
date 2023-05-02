@@ -125,6 +125,14 @@ export default {
 }
 .card-img-top{
   height: 12rem;
+  margin-top: 5px;
+  margin-left: 1px;
+}
+.card:hover{
+  scale: 1.03;
+  box-shadow: .5vw .5vw .3vh black;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
 .hr-line{
   color: rgb(125, 10, 10, 1);
