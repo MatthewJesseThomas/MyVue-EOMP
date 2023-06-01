@@ -1,0 +1,8 @@
+//Paragraph
+<div class="col-sm-4-4 myText text-white sizings text-shadow-white rounded-3 py-5 bible border-5 w-75 mt-5" data-aos="flip-down">
+                      <p class="text-light align-self-center  justify-content-md-around fw-bolder">
+                        Hello There, I am Matthew Jesse Thomas,
+                        I'm inspired by the work I've done in Software Development in all its success, and not to mention my unique career path Choice.
+                        I saw a recent article on managing Developers in the Software Industry and had to Commence. I've managed to accelerate my Developmental Process in Web & Software Development, which has contributed toward as much as 90% growth in as few as three months time.
+                      </p>
+                    </div>
