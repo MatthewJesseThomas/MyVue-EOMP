@@ -1,0 +1,6 @@
+https://my-portfolio-vuejs-28cb2.firebaseapp.com/
+https://my-portfolio-vuejs-28cb2.firebaseapp.com/about
+https://my-portfolio-vuejs-28cb2.firebaseapp.com/resume
+https://my-portfolio-vuejs-28cb2.firebaseapp.com/project
+https://my-portfolio-vuejs-28cb2.firebaseapp.com/testimonial
+https://my-portfolio-vuejs-28cb2.firebaseapp.com/contact
