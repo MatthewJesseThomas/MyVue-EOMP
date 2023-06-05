@@ -1,9 +1,9 @@
 <template>
   <div class="home">
+    <div class="rounded-3 animated-charcter" data-aos="fade-down">
+        <h1 class="text-white kage display-6 fw-bolder home-heading">Portfolio Of Matthew Jesse Thomas</h1>
+    </div>
     <section class="container-fluid sect">
-      <div class="rounded-3 animated-charcter" data-aos="fade-down">
-          <h1 class="text-white kage display-6 fw-bolder home-heading">Portfolio Of Matthew Jesse Thomas</h1>
-      </div>
       <div class="wrapper text-center home-heading-div">
           <figure>
               <div class="my-auto">
@@ -54,7 +54,7 @@ export default {
 </script>
 <style scoped>
 .home{
-    margin-top: 9rem;
+    margin-top: 1rem;
 }
 .img-fluids {
     display: flex;
@@ -132,7 +132,6 @@ p{
 }
 h1{
   font-size: 48px;
-  margin-top: 10rem;
   color: rgba(255, 255, 255, 0.8); /* White text color with opacity */
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
