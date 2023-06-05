@@ -1,14 +1,14 @@
 <template>
   <div class="home">
     <section class="container-fluid sect">
-      <div class="wrapper text-center">
-          <div class="rounded-3 animated-charcter" data-aos="fade-down">
-              <h1 class="text-white kage display-6 fw-bolder">Portfolio Of Matthew Jesse Thomas</h1>
-          </div>
+      <div class="rounded-3 animated-charcter" data-aos="fade-down">
+          <h1 class="text-white kage display-6 fw-bolder home-heading">Portfolio Of Matthew Jesse Thomas</h1>
+      </div>
+      <div class="wrapper text-center home-heading-div">
           <figure>
               <div class="my-auto">
                 <div class="img-fluids d-flex alert-danger flex-column flex-sm-row">
-                    <img class="img-fluid my-5 resize image-round" data-aos="fade-right" src="https://i.postimg.cc/xTXJBTtq/Profile-Pic1.jpg" alt="Matthew profile" loading="lazy">
+                  <img class="img-fluid my-5 resize image-round" data-aos="fade-right" src="https://i.postimg.cc/xTXJBTtq/Profile-Pic1.jpg" alt="Matthew profile" loading="lazy" style="max-width: 100%; height: auto;">
                     <div class="container" data-aos="flip-down">
                       <div class="row">
                         <div class="col-lg-8 offset-lg-2">
@@ -24,13 +24,13 @@
                     </div>
                   </div>
                   <div class="img-fluids d-flex border-alert-danger flex-column flex-sm-row">
-                    <img class="img-fluid my-5 resize2 image-rounded" data-aos="fade-right" src="https://i.postimg.cc/VkDNNx72/Profile-Pic4.jpg" alt="Matthew profile" loading="lazy">
+                    <img class="img-fluid my-5 resize2 image-rounded" data-aos="fade-right" src="https://i.postimg.cc/VkDNNx72/Profile-Pic4.jpg" alt="Matthew profile" loading="lazy" style="max-width: 100%; height: auto;">
                     <div class="container">
                       <div class="row">
                         <div class="col-lg-8 offset-lg-2">
                           <div class="paragraph-container">
                             <p class="text-light align-self-center my-5 mt-5 justify-content-md-around fw-bolder">
-                              •Matthew Thomas•
+                              Matthew Thomas
                               <br>
                               Its Inspiring to be in the working Industry of Software Development. Success in a Software Development career is Somewhat of a Dream for mine.
                               As an Aspiring Developer in the Industry it Begins Now with me. Thus I've managed to Develop a 'Critical' way of thinking and handling 'Problems' in Web & Software Development, which has contributed towards a much needed sense of Confidence as well as a Mindset shift with a focus towards "Exponential" growth in the Near Future.
@@ -118,8 +118,8 @@ export default {
     width: 23rem;
 }
 .resize2{
-    height: 23rem;
-    width: 23rem;
+    height: 24rem;
+    width: 24em;
 }
 .sizing{
     height: 23rem;

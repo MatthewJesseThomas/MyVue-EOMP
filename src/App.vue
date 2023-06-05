@@ -37,11 +37,15 @@ nav {
 
 nav a {
   font-weight: bold;
-  color: #42b983;
+  color: #d3e7f9;
+  text-decoration: none !important;
+
 }
 
 nav a.router-link-exact-active {
-  color: #24714e;
+  color: #F0F8FF;
+  text-decoration: none !important;
+  
 }
 main{
   z-index: 2;
