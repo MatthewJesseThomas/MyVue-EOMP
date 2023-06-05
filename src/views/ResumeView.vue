@@ -79,6 +79,13 @@
 	<button class="btn btn-outline-info btn-dark mt-4 CV text-dark-emphasis">
 		<a href="https://drive.google.com/uc?export=download&id=1dA4Jq-ntZqZ7XSh9XTdWD46gg4f4EMyK">Download CV</a>
 	</button>
+	<!-- Begin: HubSpot Academy - SEO Badge -->
+	<div class='academy-badge my-5'>
+		<a href='https://app-eu1.hubspot.com/academy/achievements/z1335rkn/en/1/matthew-jesse-thomas/seo' title='SEO'>
+		<img src='https://hubspot-credentials-na1.s3.amazonaws.com/prod/badges/user/24ea668361f34f4694a7164d0313eda2.png' />
+		</a>
+	</div>
+	<!-- End: HubSpot Academy - SEO Badge -->
 </section>
 </template>
 <script>
@@ -189,7 +196,52 @@ font-family: 'Poppins', 'Arial', 'Helvetica', 'sans-serif';
 	font-weight: 300;
 	line-height: 22px;
 }
+.academy-badge {
+	position: relative;
+	width: 100%;
+	max-width: 300px; /* Adjust the width as needed */
+	margin: 0 auto;
+	animation: floating 5.5s ease-in-out infinite;
+}
 
+@keyframes floating {
+	0%,
+	100% {
+		transform: translateY(0);
+		box-shadow: none;
+	}
+	50% {
+		transform: translateY(-10px);
+		box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+	}
+}
+
+.academy-badge img {
+	width: 100%;
+	display: block;
+}
+
+.academy-badge:hover {
+	animation-play-state: paused;
+}
+
+.academy-badge img:hover {
+	/* Add shine effect on hover */
+	background: linear-gradient(
+		90deg,
+		rgba(255, 255, 255, 0) 0%,
+		rgba(255, 255, 255, 1) 50%,
+		rgba(255, 255, 255, 0) 100%
+	);
+	background-size: 200% 100%;
+	animation: shine 5.5s linear infinite;
+}
+
+@keyframes shine {
+	to {
+		background-position: -200% center;
+	}
+}
 /* responsive */
 @media(max-width: 767px){
 	.timeline-items::before{
