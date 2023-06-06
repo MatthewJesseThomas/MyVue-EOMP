@@ -18,7 +18,8 @@ export default {
 </script>
 <style>
 #app {
-  font-family: 'Slackside One', cursive;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Share Tech', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
