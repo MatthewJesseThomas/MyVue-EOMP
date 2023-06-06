@@ -103,7 +103,7 @@
     width: 100%;
     padding: 1px 0;
     background: none;
-    border-bottom: 3px solid var(--clr);
+    border-bottom: 3px solid #3c4248;
     outline: none;
     color: #cdf2ff;
     font-size: 1em;
@@ -113,7 +113,7 @@
   }
   
   .inputBox input.filled {
-    border-color: var(--clr);
+    border-color: rgb(235, 13, 116);
   }
   
   .inputBox label {
@@ -134,18 +134,18 @@
   
   .inputBox input:focus ~ label span,
   .inputBox input:valid ~ label span {
-    color: crimson;
+    color: rgb(235, 13, 116);
     letter-spacing: 0.15em;
     transform: translateY(-25px);
   }
   
   .inputBox input:focus,
   .inputBox input:valid {
-    border-bottom: 2px solid crimson;
+    border-bottom: 2px solid rgb(235, 13, 116);
   }
   
   .inputBox input[type="submit"] {
-    background: crimson;
+    background: rgb(235, 13, 116);
     border: none;
     padding: 15px;
     border-radius: 50px;
@@ -170,7 +170,7 @@
   }
   
   form p a {
-    color: crimson;
+    color: rgb(235, 13, 116);
     font-weight: 600;
     text-decoration: none;
   }
