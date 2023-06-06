@@ -1,6 +1,7 @@
 <template>
-    <form id="registerForm" @submit="handleSubmit">
-      <h2>New Account</h2>
+    <form id="registerForm" @submit="handleSubmit" action="https://formspree.io/f/mjvdqewz"
+    method="POST">
+      <h2>Contact Me!!!</h2>
       <div class="inputBox">
         <input v-model="fullName" type="text" required :class="{ 'filled': fullName }">
         <label><span>Full Name</span></label>
@@ -77,7 +78,8 @@
     display: flex;
     flex-direction: column;
     border-radius: 12px;
-    max-width: 400px; /* Added to limit the form width */
+    max-width: 800px; /* Added to limit the form width */
+    height: 70%; /* Added to limit the form height */
     width: 100%; /* Added to make the form responsive */
   }
   
@@ -132,18 +134,18 @@
   
   .inputBox input:focus ~ label span,
   .inputBox input:valid ~ label span {
-    color: var(--clr);
+    color: crimson;
     letter-spacing: 0.15em;
     transform: translateY(-25px);
   }
   
   .inputBox input:focus,
   .inputBox input:valid {
-    border-bottom: 2px solid var(--clr);
+    border-bottom: 2px solid crimson;
   }
   
   .inputBox input[type="submit"] {
-    background: var(--clr);
+    background: crimson;
     border: none;
     padding: 15px;
     border-radius: 50px;
@@ -168,7 +170,7 @@
   }
   
   form p a {
-    color: var(--clr);
+    color: crimson;
     font-weight: 600;
     text-decoration: none;
   }
