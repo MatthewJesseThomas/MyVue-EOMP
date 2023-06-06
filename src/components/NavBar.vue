@@ -1,15 +1,4 @@
 <template>
-  <!-- <nav class="bg-dark">
-        <a href="../views/HomeView.vue">
-          <img class="logo" src="https://i.postimg.cc/JnpQqnfb/retro-sword-badges-shields-logo-260nw-450358219.webp" alt="Logo">
-        </a>
-        <router-link to="/">Home</router-link> |
-        <router-link to="/about">About</router-link> |
-        <router-link to="/resume">Resume</router-link> |
-        <router-link to="/project">Project</router-link> |
-        <router-link to="/testimonial">Testimonial</router-link> |
-        <router-link to="/contact">Contact</router-link> |
-      </nav> -->
   <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
     <div class="container-fluid">
       <a href="/">
@@ -30,7 +19,7 @@
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="collapse navbar-collapse bg-dark wider" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="nav-item">
             <router-link class="navLink" to="/">Home</router-link> 
@@ -64,6 +53,9 @@ nav {
   box-shadow: 0.3vw 0.5vw 0.45vw 0.1vw;
   height: 8rem;
   align-items: center;
+}
+.wider{
+  width: 100%;
 }
 .nav-item:hover {
   scale: 1.05;
