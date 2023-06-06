@@ -1,8 +1,6 @@
 <template >
     <div class="test">
-        <h1 class="animated-charcter text-light">Testimonials</h1>
-        <br>
-        <h2 class="animated-charcter text-light">•As Follows•</h2>
+        <h1 class="animated-charcter text-light testimonial-heading">Testimonials</h1>
         <Testimonial/>
     </div>
 </template>
@@ -15,7 +13,10 @@ export default {
 };
 </script>
 <style>
+.testimonial-heading{
+    font-size: 4.5rem;
+}
 .test{
-    margin-top: 9rem;
+    margin-top: 1rem;
 }    
 </style>

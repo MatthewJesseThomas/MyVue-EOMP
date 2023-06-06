@@ -1,5 +1,5 @@
 <template>
-  <h1 class="kage animated-character fw-bold text-light">About Me</h1>
+  <h1 class="kage animated-character fw-bold text-light about-heading">About Me</h1>
   <div class="about animated-character w-100">
     <div class="col-sm-4-4 text-white text-shadow-white rounded-3 py-5 bible align-self-center wrapper">
       <h2 class="display-6 text-decoration-underline kage animated-character fw-bold typing-demo">Who Is Matthew:</h2>
@@ -17,6 +17,9 @@ export default {
 </script>
 
 <style scoped>
+.about-heading{
+  font-size: 4.3rem;
+}
 p {
   font-size: 2.5rem;
 }

@@ -1,5 +1,6 @@
 <template>
-    <div class="my-5 d-flex align-items-center justify-content-center">
+    <h1 class="text-light testimonial-heading">Contact Me</h1>
+    <div class="my-3 d-flex align-items-center justify-content-center">
         <ContactForm/>
     </div>
 </template>
@@ -11,6 +12,9 @@ export default {
     }
 };
 </script>
-<style>
-
+<style lang="scss" scoped>
+.testimonial-heading{
+    font-size: 5rem;
+    margin-bottom: 4rem;
+}
 </style>

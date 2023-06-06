@@ -1,9 +1,9 @@
 <template>
-    <h1 class="text-white headingShadow">Welcome To my Resume Page...</h1>
+    <h1 class="text-white headingShadow animated-charcter fw-bolder resume-heading">Welcome To my Resume Page...</h1>
 <section class="timeline-section">
 	<div class="timeline-items">
 		<div class="timeline-item">
-			<h2 class="myWhite">|Secondary Education|</h2>
+			<h2 class="myWhite"> Secondary Education </h2>
 			<div class="timeline-dot"></div>
 			<div class="timeline-date">2012</div>
 			<div class="timeline-content">
@@ -15,7 +15,7 @@
 			</div>
 		</div>
 		<div class="timeline-item">
-			<h2 class="myWhite">|Tertiary Education|</h2>
+			<h2 class="myWhite"> Tertiary Education </h2>
 			<div class="timeline-dot"></div>
 			<div class="timeline-date">2017</div>
 			<div class="timeline-content">
@@ -26,7 +26,7 @@
 			</div>
 		</div>
 		<div class="timeline-item">
-				<h2 class="myWhite">|EXPERIENCE|</h2>
+				<h2 class="myWhite"> EXPERIENCE </h2>
 			<div class="timeline-dot"></div>
 			<div class="timeline-date">2017</div>
 			<div class="timeline-content">
@@ -35,7 +35,7 @@
 			</div>
 		</div>
 		<div class="timeline-item">
-                <h2 class="myWhite">|Skills|</h2>
+                <h2 class="myWhite"> Skills </h2>
 			<div class="timeline-dot"></div>
 			<div class="timeline-date">2022</div>
 			<div class="timeline-content">
@@ -120,8 +120,13 @@ export default {
 };
 </script>
 <style>
+.resume-heading{
+	font-size: 3.5rem;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
 .resume{
-margin-top: 8rem;
+margin-top: 3rem;
 }
 body {
 font-family: 'Poppins', 'Arial', 'Helvetica', 'sans-serif';
