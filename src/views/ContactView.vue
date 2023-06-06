@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="my-5 d-flex align-items-center justify-content-center">
         <ContactForm/>
     </div>
 </template>

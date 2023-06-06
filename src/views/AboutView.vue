@@ -1,6 +1,6 @@
 <template>
   <h1 class="kage animated-character fw-bold text-light">About Me</h1>
-  <div class="about animated-character">
+  <div class="about animated-character w-100">
     <div class="col-sm-4-4 text-white text-shadow-white rounded-3 py-5 bible align-self-center wrapper">
       <h2 class="display-6 text-decoration-underline kage animated-character fw-bold typing-demo">Who Is Matthew:</h2>
       <p class="lead display-6 kage animated-character fw-semibold">I am a Young South African male, with Aspirations of many Great deals and Strive for excellence and immense proficiency amongst all else an for my work. My passions are Engineering, Gaming, Gardening Music etc. I am the Eldest of Three kids an Always try to lead by Example for my Siblings as well as Community.</p>
@@ -74,6 +74,20 @@ h1, h2 {
   }
 }
 
+@media screen and (max-width: 520px) {
+  /* Adjust properties for screens up to 520px width */
+  h1, h2 {
+    font-size: 3rem;
+    margin-top: 2rem;
+  }
+  .about {
+    margin-top: 4rem;
+  }
+  .typing-demo {
+    font-size: 1.8em;
+  }
+}
+
 @media screen and (max-width: 480px) {
   /* Adjust properties for screens up to 480px width */
   .about {
@@ -102,4 +116,3 @@ h1, h2 {
   }
 }
 </style>
-

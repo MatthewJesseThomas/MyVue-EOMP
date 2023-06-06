@@ -2,25 +2,20 @@
     <form id="registerForm" @submit="handleSubmit">
       <h2>New Account</h2>
       <div class="inputBox">
-        <input v-model="username" type="text" required>
-        <label>Username</label>
+        <input v-model="fullName" type="text" required :class="{ 'filled': fullName }">
+        <label><span>Full Name</span></label>
       </div>
       <div class="inputBox">
-        <input v-model="email" type="text" required>
-        <label>Email</label>
+        <input v-model="email" type="text" required :class="{ 'filled': email }">
+        <label><span>Email</span></label>
       </div>
       <div class="inputBox">
-        <input v-model="password" type="password" required>
-        <label>Create &nbsp; Password</label>
+        <input v-model="message" type="text" required :class="{ 'filled': message }">
+        <label><span>Type Message</span></label>
       </div>
       <div class="inputBox">
-        <input v-model="confirmPassword" type="password" required>
-        <label>Confirm &nbsp; Password</label>
+        <input type="submit" value="Submit">
       </div>
-      <div class="inputBox">
-        <input type="submit" value="Create">
-      </div>
-      <p>Already Have an Account!!! <a href="./pages/login.html">Login</a></p>
     </form>
   </template>
   
@@ -30,17 +25,16 @@
   export default {
     data() {
       return {
-        username: '',
+        fullName: '',
         email: '',
-        password: '',
-        confirmPassword: '',
+        message: '',
       };
     },
     methods: {
       handleSubmit(event) {
         event.preventDefault();
-        const { username, email, password, confirmPassword } = this;
-        const values = { username, email, password, confirmPassword };
+        const { fullName, email, message } = this;
+        const values = { fullName, email, message };
         console.log(values);
   
         Swal.fire({
@@ -54,7 +48,7 @@
   };
   </script>
 
-  <style lang="css" scoped>
+  <style lang="scss" scoped>
   @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
   
   * {
@@ -107,12 +101,17 @@
     width: 100%;
     padding: 1px 0;
     background: none;
-    border-bottom: 3px solid #999;
+    border-bottom: 3px solid var(--clr);
     outline: none;
     color: #cdf2ff;
     font-size: 1em;
     text-transform: capitalize;
     letter-spacing: 0.23em;
+    transition: border-color 0.3s, letter-spacing 0.3s;
+  }
+  
+  .inputBox input.filled {
+    border-color: var(--clr);
   }
   
   .inputBox label {
@@ -159,7 +158,7 @@
   
   .inputBox input[type="submit"]:hover {
     letter-spacing: 0.35em;
-    scale: 1.05;
+    transform: scale(1.05);
   }
   
   form p {
@@ -174,3 +173,4 @@
     text-decoration: none;
   }
   </style>
+  

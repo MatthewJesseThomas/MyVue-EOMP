@@ -107,11 +107,6 @@ textarea {
   width: 100%;
   color: #222;
 }
-
-#contact {
-  overflow-y: hidden;
-}
-
 .offsite {
   background-color: #fbfbfb;
   border-style: groove;
