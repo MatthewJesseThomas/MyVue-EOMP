@@ -80,11 +80,11 @@
 		<a href="https://drive.google.com/uc?export=download&id=1dA4Jq-ntZqZ7XSh9XTdWD46gg4f4EMyK">Download CV</a>
 	</button>
 	<!-- Begin: HubSpot Academy - SEO Badge -->
-	<div class='academy-badge my-5'>
+	<!-- <div class='academy-badge my-5'>
 		<a href='https://app-eu1.hubspot.com/academy/achievements/z1335rkn/en/1/matthew-jesse-thomas/seo' title='SEO'>
 		<img src='https://hubspot-credentials-na1.s3.amazonaws.com/prod/badges/user/24ea668361f34f4694a7164d0313eda2.png' />
 		</a>
-	</div>
+	</div> -->
 	<!-- End: HubSpot Academy - SEO Badge -->
 </section>
 </template>
