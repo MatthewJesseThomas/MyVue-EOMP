@@ -59,7 +59,7 @@ export default {
           model: "Project2",
           img: "https://i.postimg.cc/d0WJ3w2c/Screenshot-2022-10-31-141908.jpg",
           github:"https://github.com/MatthewJesseThomas/exercise",
-          netlify:"https://matthewjessethomas22.netlify.app/",
+          netlify:"https://ghost-gaming.netlify.app/",
         },
         {
           id: "3",
@@ -87,7 +87,7 @@ export default {
         },
         {
           id: "6",
-          brand: "Ghost-Gaming",
+          brand: "JS Random Password Gen",
           model: "Project6",
           img: "https://screenshot-proxy.netlify.app/f_avif,w_336/https://d33wubrfki0l68.cloudfront.net/63bfeeb93dbee200b494cdd5/screenshot_2023-01-12-11-27-59-0000.png",
           github:"https://github.com/MatthewJesseThomas/JS-Random-PassWord-Generator.git",
