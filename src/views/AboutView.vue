@@ -1,14 +1,15 @@
 <template>
   <h1 class="kage animated-character fw-bold text-light about-heading">About Me</h1>
-  <div class="about animated-character">
-    <div class="col-sm-4-4 text-white text-shadow-white rounded-3 py-5 bible align-self-center wrapper">
-      <h2 class="display-6 text-decoration-underline kage animated-character fw-bold typing-demo">Who Is Matthew:</h2>
-      <p class="lead kage animated-character fw-semibold paragraph-text w-75">I am a Young South African male, with Aspirations of many Great deals and Strive for excellence and immense proficiency amongst all else an for my work. My passions are Engineering, Gaming, Gardening Music etc. I am the Eldest of Three kids an Always try to lead by Example for my Siblings as well as Community.</p>
-      <h2 class="display-6 text-decoration-underline kage animated-character fw-bold typing-demo">What Motivates Matthew:</h2>
-      <p class="lead kage animated-character fw-semibold  paragraph-text w-75">Money is a major factor coming from a Poverty Stricken Community although that has never stopped or Detered my sense of hunger for Success or that of being Goal driven. After my Father's Death I've had to grow up very Fast and take on Responsibilities that were at the time out of my abilities but held Steadfast and Unwavered by Circumstance went for Excellence and now am and will always be motivated by this drive for the Best Life has to Offer.</p>
+    <div class="about">
+      <div class="col-sm-4-4 text-white text-shadow-white rounded-3 py-5 bible align-self-center wrapper">
+        <h2 class="display-6 text-decoration-underline kage animated-character fw-bold typing-demo">Who Is Matthew:</h2>
+        <p class="lead kage animated-character fw-semibold paragraph-text">I am a Young South African male, with Aspirations of many Great deals and Strive for excellence and immense proficiency amongst all else an for my work. My passions are Engineering, Gaming, Gardening Music etc. I am the Eldest of Three kids an Always try to lead by Example for my Siblings as well as Community.</p>
+        <h2 class="display-6 text-decoration-underline kage animated-character fw-bold typing-demo">What Motivates Matthew:</h2>
+        <p class="lead kage animated-character fw-semibold  paragraph-text">Money is a major factor coming from a Poverty Stricken Community although that has never stopped or Detered my sense of hunger for Success or that of being Goal driven. After my Father's Death I've had to grow up very Fast and take on Responsibilities that were at the time out of my abilities but held Steadfast and Unwavered by Circumstance went for Excellence and now am and will always be motivated by this drive for the Best Life has to Offer.</p>
+      </div>
     </div>
-  </div>
-</template>
+  </template>
+  
 
 <script>
 export default {
@@ -77,6 +78,39 @@ h1, h2 {
   font-size: 2em;
   overflow-wrap: break-word; /* Add this line */
 }
+
+.about {
+  margin-top: 5rem;
+  overflow: hidden;
+  padding: 0 1rem; /* Add this line for better spacing */
+}
+
+.wrapper {
+  height: 100%; /* Modify this line */
+  max-width: 100%; /* Modify this line */
+  display: grid;
+  place-items: center;
+  overflow: visible; /* Modify this line */
+}
+
+.typing-demo {
+  max-width: 100%;
+  width: 100%;
+  animation: typing 1s steps(70), blink .5s step-end infinite alternate;
+  white-space: normal;
+  overflow-wrap: break-word;
+  border-right: none;
+  font-family: monospace;
+  font-size: 2em;
+}
+
+.paragraph-text {
+  font-size: 2em;
+  overflow-wrap: break-word;
+}
+
+/* Remove the unnecessary media queries */
+
 
 @keyframes typing {
   from {
