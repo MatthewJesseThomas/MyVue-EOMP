@@ -1,11 +1,11 @@
 <template>
   <h1 class="kage animated-character fw-bold text-light about-heading">About Me</h1>
-  <div class="about animated-character w-100">
+  <div class="about animated-character">
     <div class="col-sm-4-4 text-white text-shadow-white rounded-3 py-5 bible align-self-center wrapper">
       <h2 class="display-6 text-decoration-underline kage animated-character fw-bold typing-demo">Who Is Matthew:</h2>
-      <p class="lead display-6 kage animated-character fw-semibold">I am a Young South African male, with Aspirations of many Great deals and Strive for excellence and immense proficiency amongst all else an for my work. My passions are Engineering, Gaming, Gardening Music etc. I am the Eldest of Three kids an Always try to lead by Example for my Siblings as well as Community.</p>
+      <p class="lead kage animated-character fw-semibold paragraph-text w-75">I am a Young South African male, with Aspirations of many Great deals and Strive for excellence and immense proficiency amongst all else an for my work. My passions are Engineering, Gaming, Gardening Music etc. I am the Eldest of Three kids an Always try to lead by Example for my Siblings as well as Community.</p>
       <h2 class="display-6 text-decoration-underline kage animated-character fw-bold typing-demo">What Motivates Matthew:</h2>
-      <p class="lead display-6 kage animated-character fw-semibold">Money is a major factor coming from a Poverty Stricken Community although that has never stopped or Detered my sense of hunger for Success or that of being Goal driven. After my Father's Death I've had to grow up very Fast and take on Responsibilities that were at the time out of my abilities but held Steadfast and Unwavered by Circumstance went for Excellence and now am and will always be motivated by this drive for the Best Life has to Offer.</p>
+      <p class="lead kage animated-character fw-semibold  paragraph-text w-75">Money is a major factor coming from a Poverty Stricken Community although that has never stopped or Detered my sense of hunger for Success or that of being Goal driven. After my Father's Death I've had to grow up very Fast and take on Responsibilities that were at the time out of my abilities but held Steadfast and Unwavered by Circumstance went for Excellence and now am and will always be motivated by this drive for the Best Life has to Offer.</p>
     </div>
   </div>
 </template>
@@ -17,11 +17,31 @@ export default {
 </script>
 
 <style scoped>
+
+.wrapper {
+  height: 80%;
+  max-width: 80vw;
+  display: grid;
+  place-items: center;
+  overflow: hidden; /* Add this line */
+}
+
+.typing-demo {
+  max-width: 100%; /* Add this line */
+  width: auto; /* Add this line */
+  animation: typing 8s steps(70), blink .5s step-end infinite alternate;
+  white-space: normal; /* Modify this line */
+  overflow-wrap: break-word; /* Modify this line */
+  border-right: none; /* Remove this line */
+  font-family: monospace;
+  font-size: 2em;
+}
+
 .about-heading{
   font-size: 4.3rem;
 }
 p {
-  font-size: 2.5rem;
+  font-size: clamp(24px 16px);
 }
 
 h1, h2 {
@@ -33,10 +53,12 @@ h1, h2 {
 
 .about {
   margin-top: 5rem;
+  overflow: hidden; /* Add this line */
 }
 
 .wrapper {
   height: 80%;
+  max-width: 80vw;
   display: grid;
   place-items: center;
 }
@@ -49,6 +71,11 @@ h1, h2 {
   border-right: 3px solid;
   font-family: monospace;
   font-size: 2em;
+}
+
+.paragraph-text {
+  font-size: 2em;
+  overflow-wrap: break-word; /* Add this line */
 }
 
 @keyframes typing {
