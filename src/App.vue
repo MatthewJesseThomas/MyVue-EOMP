@@ -26,7 +26,7 @@ export default {
   color: #2c3e50;
   overflow-x: hidden;
   overflow-y: hidden;
-  background-image: url(https://i.postimg.cc/63s4CfdH/efe-kurnaz-Rn-CPi-Xixoo-Y-unsplash.jpg);
+  background-color: color-mix(in lch, plum, #2c3e50 );;
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 100vh;
