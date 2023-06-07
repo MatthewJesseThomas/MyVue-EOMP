@@ -1,22 +1,33 @@
-<template >
+<template>
     <div class="test">
-        <h1 class="animated-charcter text-light testimonial-heading">Testimonials</h1>
-        <Testimonial/>
+      <h1 class="animated-charcter text-light testimonial-heading">Testimonials</h1>
+      <Testimonial/>
     </div>
-</template>
-<script>
-import Testimonial from '../components/Testimonial.vue'
-export default {
+  </template>
+  
+  <script>
+  import Testimonial from '../components/Testimonial.vue'
+  
+  export default {
     components: {
-        Testimonial
+      Testimonial
     }
-};
-</script>
-<style>
-.testimonial-heading{
+  };
+  </script>
+  
+  <style>
+  .testimonial-heading {
     font-size: 4.5rem;
-}
-.test{
+  }
+  
+  .test {
     margin-top: 1rem;
-}    
-</style>
+  }
+  
+  @media (max-width: 767px) {
+    .testimonial-heading {
+      font-size: 3rem;
+    }
+  }
+  </style>
+  

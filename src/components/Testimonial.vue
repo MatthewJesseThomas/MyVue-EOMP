@@ -1,7 +1,7 @@
 <template>
   <div class="myCards">
     <div
-      class="row text-light rounded-3 py-5 "
+      class="row text-light rounded-3 py-5"
       data-aos="flip-right"
       data-aos-easing="ease-out-cubic"
       data-aos-duration="2000"
@@ -28,7 +28,7 @@
       </div>
     </div>
     <div
-      class="row text-light rounded-3 py-5 "
+      class="row text-light rounded-3 py-5"
       data-aos="flip-left"
       data-aos-easing="ease-out-cubic"
       data-aos-duration="2000"
@@ -50,20 +50,23 @@
           imgSrc="https://i.postimg.cc/DwRqG00W/IMG-20221105-090125.jpg"
           name="Seth Kallis"
           relation="Colleague"
-          quote="Matthew is a Multi-faceted Individual, whom I have come to know as a Take-Charge and Work-driven person. If anything working with him has made Him and I grow immensely. "
+          quote="Matthew is a Multi-faceted Individual, whom I have come to know as a Take-Charge and Work-driven person. If anything working with him has made Him and I grow immensely."
         />
       </div>
     </div>
   </div>
 </template>
+
 <script>
 import Card from "@/components/Card.vue";
+
 export default {
   components: {
     Card,
   },
 };
 </script>
+
 <style>
 .myCards {
   display: flex;
@@ -77,12 +80,90 @@ export default {
   justify-content: space-between;
   justify-content: space-around;
 }
+
 .card-img-top {
   height: 18rem;
   width: 15rem;
-}
-.card-body {
-  height: 30rem;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-bottom: 10px;
 }
 
+.card-body {
+  height: auto;
+  padding: 20px;
+}
+
+.name {
+  animation: slideInLeft 0.5s forwards;
+}
+
+.relation {
+  animation: slideInRight 0.5s forwards;
+}
+
+.quote {
+  animation: fadeIn 0.5s forwards;
+}
+
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 767px) {
+  .myCards {
+    margin-bottom: 2rem;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .card-img-top {
+    width: 100%;
+    height: 250px;
+  }
+
+  .card-body {
+    height: auto;
+    padding: 10px;
+  }
+
+  .name {
+    animation: none;
+  }
+
+  .relation {
+    animation: none;
+  }
+
+  .quote {
+    animation: none;
+  }
+}
 </style>
