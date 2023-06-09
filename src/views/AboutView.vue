@@ -96,7 +96,7 @@ h1, h2 {
 .typing-demo {
   max-width: 100%;
   width: 100%;
-  animation: typing 1s steps(70), blink .5s step-end infinite alternate;
+  animation: typing 3.5s steps(70), blink .5s step-end infinite alternate;
   white-space: normal;
   overflow-wrap: break-word;
   border-right: none;
