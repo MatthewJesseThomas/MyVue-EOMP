@@ -61,7 +61,7 @@ nav {
   scale: 1.05;
 }
 .navLink:hover {
-  color: #42b983;
+  color: #e41376;
   ;
 }
 </style>

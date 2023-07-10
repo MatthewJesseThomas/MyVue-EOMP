@@ -26,7 +26,7 @@ export default {
   color: #2c3e50;
   overflow-x: hidden;
   overflow-y: hidden;
-  background-color: color-mix(in lch, plum, #2c3e50 );;
+  background-image: linear-gradient(to right, #101b37 30%, #e41376);
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 100vh;
